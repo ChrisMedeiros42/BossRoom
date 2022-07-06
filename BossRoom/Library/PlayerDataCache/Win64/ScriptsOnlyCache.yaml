@@ -1,0 +1,4462 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachineFreeLook
+    - Cinemachine.CinemachineOrbitalTransposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineTargetGroup
+    - Cinemachine.CinemachineVirtualCamera
+    NavMeshComponents.dll:
+    - UnityEngine.AI.NavMeshModifier
+    - UnityEngine.AI.NavMeshSurface
+    Unity.Multiplayer.Samples.BossRoom.Client.dll:
+    - FXProjectile
+    - RoomNameBox
+    - SelfDisable
+    - Unity.Multiplayer.Samples.BossRoom.Client.AudioMixerConfigurator
+    - Unity.Multiplayer.Samples.BossRoom.Client.BossMusicStarter
+    - Unity.Multiplayer.Samples.BossRoom.Client.CharacterSwap
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClickFeedbackLerper
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientAvatarGuidHandler
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientBossRoomState
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientCharSelectState
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientCharacter
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientClickFeedback
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientDoorVisualization
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientInputSender
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientMusicPlayer
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientPlayerAvatar
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientPlayerAvatarRuntimeCollection
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientPostGameState
+    - Unity.Multiplayer.Samples.BossRoom.Client.EnableOrDisableColliderOnAwake
+    - Unity.Multiplayer.Samples.BossRoom.Client.MainMenuMusicStarter
+    - Unity.Multiplayer.Samples.BossRoom.Client.QualityButton
+    - Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectClassInfoBox
+    - Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    - Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel
+    - Unity.Multiplayer.Samples.BossRoom.Client.UISettingsPanel
+    - Unity.Multiplayer.Samples.BossRoom.Client.UIStateDisplayHandler
+    - Unity.Multiplayer.Samples.BossRoom.Client.UITooltipDetector
+    - Unity.Multiplayer.Samples.BossRoom.Client.UITooltipPopup
+    - Unity.Multiplayer.Samples.BossRoom.Visual.AnimatorFootstepSounds
+    - Unity.Multiplayer.Samples.BossRoom.Visual.AnimatorNodeHook
+    - Unity.Multiplayer.Samples.BossRoom.Visual.AnimatorTriggeredSpecialFX
+    - Unity.Multiplayer.Samples.BossRoom.Visual.AoeActionInput
+    - Unity.Multiplayer.Samples.BossRoom.Visual.BossDeathHelmetHandler
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ChargedActionInput
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ClientBreakableVisualization
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ClientCharacterVisualization
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ClientProjectileVisualization
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ConnectionAnimation
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ConnectionStatusMessageUIManager
+    - Unity.Multiplayer.Samples.BossRoom.Visual.HeroActionBar
+    - Unity.Multiplayer.Samples.BossRoom.Visual.HeroEmoteBar
+    - Unity.Multiplayer.Samples.BossRoom.Visual.IPHostingUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator
+    - Unity.Multiplayer.Samples.BossRoom.Visual.LobbyCreationUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.LobbyJoiningUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.LobbyListItemUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.LobbyUIMediator
+    - Unity.Multiplayer.Samples.BossRoom.Visual.NameGenerationData
+    - Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    - Unity.Multiplayer.Samples.BossRoom.Visual.PopupManager
+    - Unity.Multiplayer.Samples.BossRoom.Visual.PopupPanel
+    - Unity.Multiplayer.Samples.BossRoom.Visual.PostGameUI
+    - Unity.Multiplayer.Samples.BossRoom.Visual.RandomizedLight
+    - Unity.Multiplayer.Samples.BossRoom.Visual.ScrollingMaterialUVs
+    - Unity.Multiplayer.Samples.BossRoom.Visual.SpecialFXGraphic
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UIHUDButton
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UIMessageFeed
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UIMessageSlot
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UITinter
+    - Unity.Multiplayer.Samples.BossRoom.Visual.UnityServicesUIHandler
+    Unity.Multiplayer.Samples.BossRoom.Debug.Cheats.dll:
+    - Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    Unity.Multiplayer.Samples.BossRoom.Server.dll:
+    - Unity.Multiplayer.Samples.BossRoom.Server.DamageReceiver
+    - Unity.Multiplayer.Samples.BossRoom.Server.NavigationSystem
+    - Unity.Multiplayer.Samples.BossRoom.Server.PlayerServerCharacter
+    - Unity.Multiplayer.Samples.BossRoom.Server.PublishMessageOnLifeChange
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerAnimationHandler
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerBossRoomState
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerBreakableLogic
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerCharSelectState
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerCharacter
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerCharacterMovement
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerEnemyPortal
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerFloorSwitch
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerPostGameState
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerProjectileLogic
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerSwitchedDoor
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerWaveSpawner
+    Unity.Multiplayer.Samples.BossRoom.Shared.dll:
+    - BossRoom.Scripts.Shared.Net.NetworkObjectPool.NetworkObjectPool
+    - TransportPicker
+    - Unity.Multiplayer.Samples.BossRoom.ActionDescription
+    - Unity.Multiplayer.Samples.BossRoom.Avatar
+    - Unity.Multiplayer.Samples.BossRoom.AvatarRegistry
+    - Unity.Multiplayer.Samples.BossRoom.CharSelectData
+    - Unity.Multiplayer.Samples.BossRoom.CharacterClass
+    - Unity.Multiplayer.Samples.BossRoom.CharacterClassContainer
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientGameNetPortal
+    - Unity.Multiplayer.Samples.BossRoom.Editor.NetworkLatencyWarning
+    - Unity.Multiplayer.Samples.BossRoom.Editor.NetworkOverlay
+    - Unity.Multiplayer.Samples.BossRoom.GameDataSource
+    - Unity.Multiplayer.Samples.BossRoom.GameNetPortal
+    - Unity.Multiplayer.Samples.BossRoom.IntVariable
+    - Unity.Multiplayer.Samples.BossRoom.NetworkAvatarGuidState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkBreakableState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkCharacterState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkDoorState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkFloorSwitchState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkGameState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkHealthState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkLifeState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkNameState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkProjectileState
+    - Unity.Multiplayer.Samples.BossRoom.NetworkStats
+    - Unity.Multiplayer.Samples.BossRoom.NetworkWinState
+    - Unity.Multiplayer.Samples.BossRoom.PersistentPlayer
+    - Unity.Multiplayer.Samples.BossRoom.PersistentPlayerRuntimeCollection
+    - Unity.Multiplayer.Samples.BossRoom.PhysicsWrapper
+    - Unity.Multiplayer.Samples.BossRoom.Server.ServerGameNetPortal
+    - Unity.Multiplayer.Samples.BossRoom.Shared.ApplicationController
+    - Unity.Multiplayer.Samples.BossRoom.Shared.Infrastructure.UpdateRunner
+    - Unity.Multiplayer.Samples.BossRoom.TimedSelfDestruct
+    - Unity.Multiplayer.Samples.BossRoom.TransformRegister
+    - Unity.Multiplayer.Samples.BossRoom.TransformVariable
+    - Unity.Multiplayer.Samples.BossRoom.UIHealth
+    - Unity.Multiplayer.Samples.BossRoom.UIName
+    - Unity.Multiplayer.Samples.BossRoom.UIStateDisplay
+    - Unity.Multiplayer.Samples.BossRoom.VisualizationConfiguration
+    Unity.Multiplayer.Samples.Utilities.dll:
+    - Unity.Multiplayer.Samples.Utilities.ClientLoadingScreen
+    - Unity.Multiplayer.Samples.Utilities.SceneLoaderWrapper
+    - Unity.Multiplayer.Samples.Utilities.ServerAdditiveSceneLoader
+    Unity.Netcode.Components.dll:
+    - Unity.Netcode.Components.NetworkAnimator
+    - Unity.Netcode.Components.NetworkTransform
+    Unity.Netcode.Runtime.dll:
+    - Unity.Netcode.NetworkManager
+    - Unity.Netcode.NetworkObject
+    - Unity.Netcode.Transports.UNET.UNetTransport
+    - Unity.Netcode.Transports.UTP.UnityTransport
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
+    Unity.RenderPipelines.Core.Runtime.dll:
+    - UnityEngine.Rendering.UI.DebugUIHandlerBitField
+    - UnityEngine.Rendering.UI.DebugUIHandlerButton
+    - UnityEngine.Rendering.UI.DebugUIHandlerCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerColor
+    - UnityEngine.Rendering.UI.DebugUIHandlerContainer
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumField
+    - UnityEngine.Rendering.UI.DebugUIHandlerEnumHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerFoldout
+    - UnityEngine.Rendering.UI.DebugUIHandlerGroup
+    - UnityEngine.Rendering.UI.DebugUIHandlerHBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectFloatField
+    - UnityEngine.Rendering.UI.DebugUIHandlerIndirectToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerMessageBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    - UnityEngine.Rendering.UI.DebugUIHandlerPersistentCanvas
+    - UnityEngine.Rendering.UI.DebugUIHandlerRow
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggle
+    - UnityEngine.Rendering.UI.DebugUIHandlerToggleHistory
+    - UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    - UnityEngine.Rendering.UI.DebugUIHandlerVBox
+    - UnityEngine.Rendering.UI.DebugUIHandlerValue
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector2
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector3
+    - UnityEngine.Rendering.UI.DebugUIHandlerVector4
+    - UnityEngine.Rendering.UI.UIFoldout
+    - UnityEngine.Rendering.Volume
+    - UnityEngine.Rendering.VolumeProfile
+    Unity.RenderPipelines.Universal.Editor.dll:
+    - UnityEditor.Rendering.Universal.UniversalProjectSettings
+    Unity.RenderPipelines.Universal.Runtime.dll:
+    - UnityEngine.Experimental.Rendering.Universal.RenderObjects
+    - UnityEngine.Rendering.Universal.Bloom
+    - UnityEngine.Rendering.Universal.ChannelMixer
+    - UnityEngine.Rendering.Universal.ColorAdjustments
+    - UnityEngine.Rendering.Universal.LiftGammaGain
+    - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusion
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineGlobalSettings
+    - UnityEngine.Rendering.Universal.UniversalRendererData
+    - UnityEngine.Rendering.Universal.Vignette
+    - UnityEngine.Rendering.Universal.XRSystemData
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.ShaderGraph.Editor.dll:
+    - UnityEditor.ShaderGraph.ShaderGraphProjectSettings
+    - UnityEditor.ShaderGraph.SubGraphAsset
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.PhysicsRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    Cinemachine:
+    - Cinemachine.AxisState
+    - Cinemachine.AxisState/Recentering
+    - Cinemachine.CinemachineBlendDefinition
+    - Cinemachine.CinemachineBrain/BrainEvent
+    - Cinemachine.CinemachineBrain/VcamActivatedEvent
+    - Cinemachine.CinemachineFreeLook/Orbit
+    - Cinemachine.CinemachineOrbitalTransposer/Heading
+    - Cinemachine.CinemachineVirtualCameraBase/TransitionParams
+    - Cinemachine.LensSettings
+    Unity.Multiplayer.Samples.BossRoom.Client:
+    - Unity.Multiplayer.Samples.BossRoom.Client.CharacterSwap/CharacterModelSet
+    - Unity.Multiplayer.Samples.BossRoom.Client.ClientCharSelectState/ColorAndIndicator
+    - Unity.Multiplayer.Samples.BossRoom.Visual.AnimatorTriggeredSpecialFX/AnimatorNodeEntryEvent
+    Unity.Multiplayer.Samples.BossRoom.Shared:
+    - BossRoom.Scripts.Shared.Net.NetworkObjectPool.PoolConfigObject
+    - Unity.Multiplayer.Samples.BossRoom.ActionDescription/BlockingModeType
+    - Unity.Multiplayer.Samples.BossRoom.ActionDescription/ProjectileInfo
+    Unity.Netcode.Runtime:
+    - Unity.Netcode.NetworkConfig
+    - Unity.Netcode.NetworkPrefab
+    - Unity.Netcode.NetworkVariable`1[System.Boolean]
+    - Unity.Netcode.NetworkVariable`1[System.Int32]
+    - Unity.Netcode.NetworkVariable`1[Unity.Multiplayer.Samples.BossRoom.FixedPlayerName]
+    - Unity.Netcode.NetworkVariable`1[Unity.Multiplayer.Samples.BossRoom.LifeState]
+    - Unity.Netcode.NetworkVariable`1[Unity.Multiplayer.Samples.BossRoom.NetworkGuid]
+    - Unity.Netcode.NetworkVariable`1[Unity.Multiplayer.Samples.BossRoom.WinState]
+    - Unity.Netcode.Transports.UTP.UnityTransport/ConnectionAddressData
+    - Unity.Netcode.Transports.UTP.UnityTransport/SimulatorParameters
+    Unity.Postprocessing.Runtime:
+    - UnityEngine.Rendering.PostProcessing.FastApproximateAntialiasing
+    - UnityEngine.Rendering.PostProcessing.Fog
+    - UnityEngine.Rendering.PostProcessing.HistogramMonitor
+    - UnityEngine.Rendering.PostProcessing.LightMeterMonitor
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessDebugLayer/OverlaySettings
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/ComputeShaders
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/SMAALuts
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources/Shaders
+    - UnityEngine.Rendering.PostProcessing.SubpixelMorphologicalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.TemporalAntialiasing
+    - UnityEngine.Rendering.PostProcessing.VectorscopeMonitor
+    - UnityEngine.Rendering.PostProcessing.WaveformMonitor
+    Unity.RenderPipelines.Core.Runtime:
+    - UnityEngine.Rendering.BoolParameter
+    - UnityEngine.Rendering.ClampedFloatParameter
+    - UnityEngine.Rendering.ClampedIntParameter
+    - UnityEngine.Rendering.ColorParameter
+    - UnityEngine.Rendering.FloatParameter
+    - UnityEngine.Rendering.MinFloatParameter
+    - UnityEngine.Rendering.TextureParameter
+    - UnityEngine.Rendering.UI.DebugUIPrefabBundle
+    - UnityEngine.Rendering.Vector2Parameter
+    - UnityEngine.Rendering.Vector4Parameter
+    Unity.RenderPipelines.Universal.Runtime:
+    - UnityEngine.Experimental.Rendering.Universal.RenderObjects/CustomCameraSettings
+    - UnityEngine.Experimental.Rendering.Universal.RenderObjects/FilterSettings
+    - UnityEngine.Experimental.Rendering.Universal.RenderObjects/RenderObjectsSettings
+    - UnityEngine.Rendering.Universal.PostProcessData/ShaderResources
+    - UnityEngine.Rendering.Universal.PostProcessData/TextureResources
+    - UnityEngine.Rendering.Universal.ScreenSpaceAmbientOcclusionSettings
+    - UnityEngine.Rendering.Universal.ScriptableRendererData/DebugShaderResources
+    - UnityEngine.Rendering.Universal.StencilStateData
+    - UnityEngine.Rendering.Universal.UniversalRendererData/ShaderResources
+    - UnityEngine.Rendering.Universal.XRSystemData/ShaderResources
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.InputField/EndEditEvent
+    - UnityEngine.UI.InputField/OnChangeEvent
+    - UnityEngine.UI.InputField/SubmitEvent
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
+    UnityEngine.UIElementsModule:
+    - UnityEngine.UIElements.DynamicAtlasSettings
+    - UnityEngine.UIElements.StyleComplexSelector
+    - UnityEngine.UIElements.StyleProperty
+    - UnityEngine.UIElements.StyleRule
+    - UnityEngine.UIElements.StyleSelector
+    - UnityEngine.UIElements.StyleSelectorPart
+    - UnityEngine.UIElements.StyleSheet/ImportStruct
+    - UnityEngine.UIElements.StyleSheets.Dimension
+    - UnityEngine.UIElements.StyleSheets.ScalableImage
+    - UnityEngine.UIElements.StyleValueHandle
+  methodsToPreserve:
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PopupPanel
+    methodName: OnConfirmClick
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerUIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: OnScrollbarClicked
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnDecrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerIntField
+    methodName: OnIncrement
+  - assembly: Unity.RenderPipelines.Core.Runtime
+    fullTypeName: UnityEngine.Rendering.UI.DebugUIHandlerPanel
+    methodName: ResetDebugManager
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyUIMediator
+    methodName: Hide
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyJoiningUI
+    methodName: OnJoinButtonPressed
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyJoiningUI
+    methodName: SanitizeJoinCodeInputText
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyJoiningUI
+    methodName: OnQuickJoinClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyJoiningUI
+    methodName: OnRefresh
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyListItemUI
+    methodName: OnClick
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyCreationUI
+    methodName: OnCreateClick
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyUIMediator
+    methodName: ToggleCreateLobbyUI
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyUIMediator
+    methodName: ToggleJoinLobbyUI
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.LobbyUIMediator
+    methodName: RegenerateName
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState
+    methodName: OnDirectIPClicked
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel
+    methodName: Quit
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.QualityButton
+    methodName: SetQualitySettings
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickQuitButton
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickSettingsButton
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator
+    methodName: Hide
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI
+    methodName: OnJoinButtonPressed
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI
+    methodName: SanitizePortText
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPJoiningUI
+    methodName: SanitizeIPInputText
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPHostingUI
+    methodName: OnCreateClick
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPHostingUI
+    methodName: SanitizePortText
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPHostingUI
+    methodName: SanitizeIPInputText
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator
+    methodName: ToggleCreateIPUI
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator
+    methodName: ToggleJoinIPUI
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.IPUIMediator
+    methodName: RegenerateName
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.ClientMainMenuState
+    methodName: OnStartClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: RoomNameBox
+    methodName: CopyToClipboard
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UICharSelectPlayerSeat
+    methodName: OnClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.ClientCharSelectState
+    methodName: OnPlayerClickedReady
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel
+    methodName: Quit
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.QualityButton
+    methodName: SetQualitySettings
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickQuitButton
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickSettingsButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel
+    methodName: Quit
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.QualityButton
+    methodName: SetQualitySettings
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickQuitButton
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickSettingsButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: GoToPostGame
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: TogglePortals
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: ToggleDoor
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: ToggleTeleportMode
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: ToggleSuperSpeed
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: HealPlayer
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: ToggleGodMode
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: KillAllEnemies
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: KillTarget
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: SpawnBoss
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Debug.DebugCheatsManager
+    methodName: SpawnEnemy
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.HeroEmoteBar
+    methodName: OnButtonClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.HeroEmoteBar
+    methodName: OnButtonClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.HeroEmoteBar
+    methodName: OnButtonClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.HeroEmoteBar
+    methodName: OnButtonClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PartyHUD
+    methodName: SelectPartyMember
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PostGameUI
+    methodName: OnMainMenuClicked
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.PostGameUI
+    methodName: OnPlayAgainClicked
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.UIQuitPanel
+    methodName: Quit
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Client.QualityButton
+    methodName: SetQualitySettings
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickQuitButton
+  - assembly: Unity.Multiplayer.Samples.BossRoom.Client
+    fullTypeName: Unity.Multiplayer.Samples.BossRoom.Visual.UISettingsCanvas
+    methodName: OnClickSettingsButton
+  sceneClasses:
+    Assets/BossRoom/Scenes/BossRoom.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 14810}
+    - Class: 114
+      Script: {instanceID: 14898}
+    - Class: 114
+      Script: {instanceID: 15398}
+    - Class: 114
+      Script: {instanceID: 15660}
+    - Class: 114
+      Script: {instanceID: 15856}
+    - Class: 114
+      Script: {instanceID: 15944}
+    - Class: 114
+      Script: {instanceID: 16106}
+    - Class: 114
+      Script: {instanceID: 16110}
+    - Class: 114
+      Script: {instanceID: 16198}
+    - Class: 114
+      Script: {instanceID: 16204}
+    - Class: 114
+      Script: {instanceID: 16314}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16474}
+    - Class: 114
+      Script: {instanceID: 16484}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16664}
+    - Class: 114
+      Script: {instanceID: 16760}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 16990}
+    - Class: 114
+      Script: {instanceID: 17036}
+    - Class: 114
+      Script: {instanceID: 17050}
+    - Class: 114
+      Script: {instanceID: 17082}
+    - Class: 114
+      Script: {instanceID: 17088}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17354}
+    - Class: 114
+      Script: {instanceID: 17430}
+    - Class: 114
+      Script: {instanceID: 17822}
+    - Class: 114
+      Script: {instanceID: 17836}
+    - Class: 114
+      Script: {instanceID: 17960}
+    - Class: 114
+      Script: {instanceID: 18050}
+    - Class: 114
+      Script: {instanceID: 18126}
+    - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
+      Script: {instanceID: 18566}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18734}
+    - Class: 114
+      Script: {instanceID: 18770}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 19178}
+    - Class: 114
+      Script: {instanceID: 19190}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19492}
+    - Class: 114
+      Script: {instanceID: 19516}
+    - Class: 114
+      Script: {instanceID: 19594}
+    - Class: 114
+      Script: {instanceID: 19714}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 19826}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20016}
+    - Class: 114
+      Script: {instanceID: 20054}
+    - Class: 114
+      Script: {instanceID: 20058}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20154}
+    - Class: 114
+      Script: {instanceID: 20162}
+    - Class: 114
+      Script: {instanceID: 20202}
+    - Class: 114
+      Script: {instanceID: 20268}
+    - Class: 114
+      Script: {instanceID: 20280}
+    - Class: 114
+      Script: {instanceID: 20340}
+    - Class: 114
+      Script: {instanceID: 20450}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20558}
+    - Class: 114
+      Script: {instanceID: 20588}
+    - Class: 114
+      Script: {instanceID: 20864}
+    - Class: 114
+      Script: {instanceID: 21012}
+    - Class: 114
+      Script: {instanceID: 21078}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21142}
+    - Class: 114
+      Script: {instanceID: 21154}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21486}
+    - Class: 114
+      Script: {instanceID: 21580}
+    - Class: 114
+      Script: {instanceID: 21708}
+    - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
+      Script: {instanceID: 21866}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 22026}
+    - Class: 114
+      Script: {instanceID: 22224}
+    - Class: 114
+      Script: {instanceID: 22270}
+    - Class: 114
+      Script: {instanceID: 22426}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22492}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 22990}
+    - Class: 114
+      Script: {instanceID: 23062}
+    - Class: 114
+      Script: {instanceID: 23080}
+    - Class: 114
+      Script: {instanceID: 23130}
+    - Class: 114
+      Script: {instanceID: 23284}
+    - Class: 114
+      Script: {instanceID: 23356}
+    - Class: 114
+      Script: {instanceID: 23358}
+    - Class: 114
+      Script: {instanceID: 23374}
+    - Class: 114
+      Script: {instanceID: 23896}
+    - Class: 114
+      Script: {instanceID: 24076}
+    - Class: 114
+      Script: {instanceID: 24352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 220
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/BossRoom/DungeonBossRoom.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14698}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 16110}
+    - Class: 114
+      Script: {instanceID: 16198}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16760}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 16978}
+    - Class: 114
+      Script: {instanceID: 17050}
+    - Class: 114
+      Script: {instanceID: 17096}
+    - Class: 114
+      Script: {instanceID: 18734}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 19178}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19714}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20016}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20280}
+    - Class: 114
+      Script: {instanceID: 20340}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20558}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21296}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21328}
+    - Class: 114
+      Script: {instanceID: 21866}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 22026}
+    - Class: 114
+      Script: {instanceID: 22086}
+    - Class: 114
+      Script: {instanceID: 22426}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 23358}
+    - Class: 114
+      Script: {instanceID: 24434}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/BossRoom/DungeonEntrance.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14698}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 16198}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16760}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 16978}
+    - Class: 114
+      Script: {instanceID: 17096}
+    - Class: 114
+      Script: {instanceID: 18734}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 19178}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19714}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20016}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20280}
+    - Class: 114
+      Script: {instanceID: 20340}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20558}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21296}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21866}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 22026}
+    - Class: 114
+      Script: {instanceID: 22426}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 23358}
+    - Class: 114
+      Script: {instanceID: 24434}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/BossRoom/DungeonTransition.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 16198}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16550}
+    - Class: 114
+      Script: {instanceID: 16760}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 17096}
+    - Class: 114
+      Script: {instanceID: 17236}
+    - Class: 114
+      Script: {instanceID: 18156}
+    - Class: 114
+      Script: {instanceID: 18734}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 19178}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19714}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20016}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20280}
+    - Class: 114
+      Script: {instanceID: 20340}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20558}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21296}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21866}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 22026}
+    - Class: 114
+      Script: {instanceID: 22426}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 23286}
+    - Class: 114
+      Script: {instanceID: 23358}
+    - Class: 114
+      Script: {instanceID: 24288}
+    - Class: 114
+      Script: {instanceID: 24434}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 208
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/CharSelect.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 14810}
+    - Class: 114
+      Script: {instanceID: 15132}
+    - Class: 114
+      Script: {instanceID: 15160}
+    - Class: 114
+      Script: {instanceID: 15398}
+    - Class: 114
+      Script: {instanceID: 15660}
+    - Class: 114
+      Script: {instanceID: 16204}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 16990}
+    - Class: 114
+      Script: {instanceID: 17088}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17430}
+    - Class: 114
+      Script: {instanceID: 17822}
+    - Class: 114
+      Script: {instanceID: 17836}
+    - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
+      Script: {instanceID: 18438}
+    - Class: 114
+      Script: {instanceID: 18566}
+    - Class: 114
+      Script: {instanceID: 18670}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 18946}
+    - Class: 114
+      Script: {instanceID: 19190}
+    - Class: 114
+      Script: {instanceID: 19328}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20054}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20162}
+    - Class: 114
+      Script: {instanceID: 20202}
+    - Class: 114
+      Script: {instanceID: 20588}
+    - Class: 114
+      Script: {instanceID: 21078}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21154}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21486}
+    - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 23122}
+    - Class: 114
+      Script: {instanceID: 23130}
+    - Class: 114
+      Script: {instanceID: 23374}
+    - Class: 114
+      Script: {instanceID: 23472}
+    - Class: 114
+      Script: {instanceID: 24076}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 15086}
+    - Class: 114
+      Script: {instanceID: 15132}
+    - Class: 114
+      Script: {instanceID: 15178}
+    - Class: 114
+      Script: {instanceID: 15660}
+    - Class: 114
+      Script: {instanceID: 16204}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16570}
+    - Class: 114
+      Script: {instanceID: 16956}
+    - Class: 114
+      Script: {instanceID: 16990}
+    - Class: 114
+      Script: {instanceID: 17088}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17430}
+    - Class: 114
+      Script: {instanceID: 17592}
+    - Class: 114
+      Script: {instanceID: 17736}
+    - Class: 114
+      Script: {instanceID: 17836}
+    - Class: 114
+      Script: {instanceID: 18048}
+    - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
+      Script: {instanceID: 18566}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18804}
+    - Class: 114
+      Script: {instanceID: 19190}
+    - Class: 114
+      Script: {instanceID: 19416}
+    - Class: 114
+      Script: {instanceID: 19742}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 19914}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20022}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20202}
+    - Class: 114
+      Script: {instanceID: 20588}
+    - Class: 114
+      Script: {instanceID: 20832}
+    - Class: 114
+      Script: {instanceID: 21078}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21154}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21486}
+    - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
+      Script: {instanceID: 21824}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 22272}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 23130}
+    - Class: 114
+      Script: {instanceID: 23374}
+    - Class: 114
+      Script: {instanceID: 23508}
+    - Class: 114
+      Script: {instanceID: 24076}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/PostGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 15398}
+    - Class: 114
+      Script: {instanceID: 15660}
+    - Class: 114
+      Script: {instanceID: 15722}
+    - Class: 114
+      Script: {instanceID: 16204}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16824}
+    - Class: 114
+      Script: {instanceID: 16990}
+    - Class: 114
+      Script: {instanceID: 17036}
+    - Class: 114
+      Script: {instanceID: 17088}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17430}
+    - Class: 114
+      Script: {instanceID: 17836}
+    - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
+      Script: {instanceID: 18438}
+    - Class: 114
+      Script: {instanceID: 18566}
+    - Class: 114
+      Script: {instanceID: 18744}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 19190}
+    - Class: 114
+      Script: {instanceID: 19752}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20054}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20202}
+    - Class: 114
+      Script: {instanceID: 20588}
+    - Class: 114
+      Script: {instanceID: 21078}
+    - Class: 114
+      Script: {instanceID: 21132}
+    - Class: 114
+      Script: {instanceID: 21154}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21344}
+    - Class: 114
+      Script: {instanceID: 21486}
+    - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
+      Script: {instanceID: 21904}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 23130}
+    - Class: 114
+      Script: {instanceID: 23374}
+    - Class: 114
+      Script: {instanceID: 23752}
+    - Class: 114
+      Script: {instanceID: 24076}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 215
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/BossRoom/Scenes/Startup.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 96
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 250}
+    - Class: 114
+      Script: {instanceID: 252}
+    - Class: 114
+      Script: {instanceID: 274}
+    - Class: 114
+      Script: {instanceID: 14598}
+    - Class: 114
+      Script: {instanceID: 14650}
+    - Class: 114
+      Script: {instanceID: 14772}
+    - Class: 114
+      Script: {instanceID: 14810}
+    - Class: 114
+      Script: {instanceID: 14832}
+    - Class: 114
+      Script: {instanceID: 14926}
+    - Class: 114
+      Script: {instanceID: 15522}
+    - Class: 114
+      Script: {instanceID: 15590}
+    - Class: 114
+      Script: {instanceID: 15610}
+    - Class: 114
+      Script: {instanceID: 15746}
+    - Class: 114
+      Script: {instanceID: 15788}
+    - Class: 114
+      Script: {instanceID: 15896}
+    - Class: 114
+      Script: {instanceID: 15944}
+    - Class: 114
+      Script: {instanceID: 16110}
+    - Class: 114
+      Script: {instanceID: 16198}
+    - Class: 114
+      Script: {instanceID: 16204}
+    - Class: 114
+      Script: {instanceID: 16446}
+    - Class: 114
+      Script: {instanceID: 16490}
+    - Class: 114
+      Script: {instanceID: 16510}
+    - Class: 114
+      Script: {instanceID: 16528}
+    - Class: 114
+      Script: {instanceID: 16664}
+    - Class: 114
+      Script: {instanceID: 16744}
+    - Class: 114
+      Script: {instanceID: 16760}
+    - Class: 114
+      Script: {instanceID: 16816}
+    - Class: 114
+      Script: {instanceID: 16832}
+    - Class: 114
+      Script: {instanceID: 16876}
+    - Class: 114
+      Script: {instanceID: 16990}
+    - Class: 114
+      Script: {instanceID: 17036}
+    - Class: 114
+      Script: {instanceID: 17082}
+    - Class: 114
+      Script: {instanceID: 17088}
+    - Class: 114
+      Script: {instanceID: 17204}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17330}
+    - Class: 114
+      Script: {instanceID: 17354}
+    - Class: 114
+      Script: {instanceID: 17530}
+    - Class: 114
+      Script: {instanceID: 17682}
+    - Class: 114
+      Script: {instanceID: 17688}
+    - Class: 114
+      Script: {instanceID: 17822}
+    - Class: 114
+      Script: {instanceID: 17852}
+    - Class: 114
+      Script: {instanceID: 18010}
+    - Class: 114
+      Script: {instanceID: 18048}
+    - Class: 114
+      Script: {instanceID: 18126}
+    - Class: 114
+      Script: {instanceID: 18150}
+    - Class: 114
+      Script: {instanceID: 18314}
+    - Class: 114
+      Script: {instanceID: 18442}
+    - Class: 114
+      Script: {instanceID: 18524}
+    - Class: 114
+      Script: {instanceID: 18630}
+    - Class: 114
+      Script: {instanceID: 18734}
+    - Class: 114
+      Script: {instanceID: 18786}
+    - Class: 114
+      Script: {instanceID: 18884}
+    - Class: 114
+      Script: {instanceID: 18956}
+    - Class: 114
+      Script: {instanceID: 19178}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19452}
+    - Class: 114
+      Script: {instanceID: 19714}
+    - Class: 114
+      Script: {instanceID: 19826}
+    - Class: 114
+      Script: {instanceID: 19914}
+    - Class: 114
+      Script: {instanceID: 19934}
+    - Class: 114
+      Script: {instanceID: 20004}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20016}
+    - Class: 114
+      Script: {instanceID: 20022}
+    - Class: 114
+      Script: {instanceID: 20048}
+    - Class: 114
+      Script: {instanceID: 20130}
+    - Class: 114
+      Script: {instanceID: 20142}
+    - Class: 114
+      Script: {instanceID: 20154}
+    - Class: 114
+      Script: {instanceID: 20164}
+    - Class: 114
+      Script: {instanceID: 20268}
+    - Class: 114
+      Script: {instanceID: 20280}
+    - Class: 114
+      Script: {instanceID: 20340}
+    - Class: 114
+      Script: {instanceID: 20440}
+    - Class: 114
+      Script: {instanceID: 20456}
+    - Class: 114
+      Script: {instanceID: 20468}
+    - Class: 114
+      Script: {instanceID: 20470}
+    - Class: 114
+      Script: {instanceID: 20500}
+    - Class: 114
+      Script: {instanceID: 20558}
+    - Class: 114
+      Script: {instanceID: 20588}
+    - Class: 114
+      Script: {instanceID: 20762}
+    - Class: 114
+      Script: {instanceID: 20904}
+    - Class: 114
+      Script: {instanceID: 21078}
+    - Class: 114
+      Script: {instanceID: 21178}
+    - Class: 114
+      Script: {instanceID: 21274}
+    - Class: 114
+      Script: {instanceID: 21304}
+    - Class: 114
+      Script: {instanceID: 21308}
+    - Class: 114
+      Script: {instanceID: 21316}
+    - Class: 114
+      Script: {instanceID: 21328}
+    - Class: 114
+      Script: {instanceID: 21424}
+    - Class: 114
+      Script: {instanceID: 21430}
+    - Class: 114
+      Script: {instanceID: 21588}
+    - Class: 114
+      Script: {instanceID: 21636}
+    - Class: 114
+      Script: {instanceID: 21706}
+    - Class: 114
+      Script: {instanceID: 21708}
+    - Class: 114
+      Script: {instanceID: 21804}
+    - Class: 114
+      Script: {instanceID: 21824}
+    - Class: 114
+      Script: {instanceID: 21866}
+    - Class: 114
+      Script: {instanceID: 21920}
+    - Class: 114
+      Script: {instanceID: 21988}
+    - Class: 114
+      Script: {instanceID: 22026}
+    - Class: 114
+      Script: {instanceID: 22086}
+    - Class: 114
+      Script: {instanceID: 22102}
+    - Class: 114
+      Script: {instanceID: 22184}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 114
+      Script: {instanceID: 22364}
+    - Class: 114
+      Script: {instanceID: 22426}
+    - Class: 114
+      Script: {instanceID: 22454}
+    - Class: 114
+      Script: {instanceID: 22492}
+    - Class: 114
+      Script: {instanceID: 22562}
+    - Class: 114
+      Script: {instanceID: 22630}
+    - Class: 114
+      Script: {instanceID: 22798}
+    - Class: 114
+      Script: {instanceID: 22836}
+    - Class: 114
+      Script: {instanceID: 22870}
+    - Class: 114
+      Script: {instanceID: 22878}
+    - Class: 114
+      Script: {instanceID: 22924}
+    - Class: 114
+      Script: {instanceID: 22988}
+    - Class: 114
+      Script: {instanceID: 22990}
+    - Class: 114
+      Script: {instanceID: 23062}
+    - Class: 114
+      Script: {instanceID: 23080}
+    - Class: 114
+      Script: {instanceID: 23356}
+    - Class: 114
+      Script: {instanceID: 23358}
+    - Class: 114
+      Script: {instanceID: 23374}
+    - Class: 114
+      Script: {instanceID: 23590}
+    - Class: 114
+      Script: {instanceID: 23596}
+    - Class: 114
+      Script: {instanceID: 23858}
+    - Class: 114
+      Script: {instanceID: 24050}
+    - Class: 114
+      Script: {instanceID: 24290}
+    - Class: 114
+      Script: {instanceID: 24304}
+    - Class: 114
+      Script: {instanceID: 24352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f69dfc6409fbbd89d3689368e99688a8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NetworkingManagerHUD
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: ca0b8ad3987cd33b3209a508b6e1562e
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: FreeCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 53e1b07884b9f0c431c77705ac79b8c5
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerEnemyPortal
+  - hash:
+      serializedVersion: 2
+      Hash: 4b27471e3f716e099800d3f7e89fd7fd
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: IntVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 05a62d977ab0662b879e531499d3d1a2
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: Avatar
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: f1629c6f2e2b541a09108a5f7d0f3578
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceAmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: f24c4c994f99c3f136c292096f97d3a2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: e78709e690dc77916f3252ffe12b9d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: 17fa63dfdfb2da13bc9a219e7a015373
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: PersistentPlayerRuntimeCollection
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 43b05c49d8221f1600bed112164cac39
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkCharacterTypeState
+  - hash:
+      serializedVersion: 2
+      Hash: 8e13bb05c31d315b9db3d7ff2211c3a9
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 6baea8aacfbc547d8c40d247a6b0f277
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: LobbyJoiningUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9f0d2156cb2876cc856eb040bfe23e76
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CompositeShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 21cec0018acdfde4f773cbae8c290175
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: MainMenuMusicStarter
+  - hash:
+      serializedVersion: 2
+      Hash: cecda2c3b093bc772ff957b6da0415a7
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: WhiteBalance
+  - hash:
+      serializedVersion: 2
+      Hash: eb4274af0449cee27ec4d403423dc2a4
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: CharSelectData
+  - hash:
+      serializedVersion: 2
+      Hash: d7a712acd6c7d6f26285828628030a0e
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: IPUIMediator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Netcode.Components.dll
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 6da05449502c54a7bf3cc65b493806ee
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: RenderObjects
+  - hash:
+      serializedVersion: 2
+      Hash: 278aad2998851ac54a54164b7672b1e3
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UIMessageFeed
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: c3db6150432d0df1c5aa9af183c57757
+    assemblyName: Unity.Multiplayer.Samples.Utilities.ClientAuthority.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 53458d34567b36c5ca5455ba51b09776
+    assemblyName: Unity.Netcode.Runtime.dll
+    namespaceName: Unity.Netcode.Transports.UTP
+    className: UnityTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerMessageBox
+  - hash:
+      serializedVersion: 2
+      Hash: adfaba4792f7fd084bea19832a14b29c
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: QualityButton
+  - hash:
+      serializedVersion: 2
+      Hash: 238b2bc28e83af519b9a8750d150a179
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumePerSceneData
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggle
+  - hash:
+      serializedVersion: 2
+      Hash: f702c88e849d8d49ede0d405391fdd48
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkWinState
+  - hash:
+      serializedVersion: 2
+      Hash: ad00aef5869cbb8fc93e54b46c6a0a27
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: SplitToning
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 4822a11cdda6e9f95cff1a208c05b791
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorLookup
+  - hash:
+      serializedVersion: 2
+      Hash: 51b05e403ce1da1805851f42af02f4bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f2bda828e4abfdf5af832b7514a1f6af
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientPlayerAvatarRuntimeCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 31995eb8416877c9afd92b5d1b50df0d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: XRSystemData
+  - hash:
+      serializedVersion: 2
+      Hash: 58cb4e2e0cfe376003f3758d58f93e4a
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareComponentSRP
+  - hash:
+      serializedVersion: 2
+      Hash: 4a03f6b1ff196600b4f44591c20b6e2b
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 79527ae782d60d63cc6352d7b7dbfb05
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: PublishMessageOnLifeChange
+  - hash:
+      serializedVersion: 2
+      Hash: 1f523181a8ea7a7772c92a2a60181bf9
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: DamageReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c822eec45bd7c5f6d7c8a2d82a6feb07
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 865badd217302014bb89063601836039
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeReferenceVolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerWidget
+  - hash:
+      serializedVersion: 2
+      Hash: 028dc9e3ea6cac0eefcc720051389e59
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkCharacterState
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 0caa25bac3a0240181cc985420a1b317
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: BossRoom.Scripts.Shared.Net.NetworkObjectPool
+    className: NetworkObjectPool
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: be02c647d1947361e4888b9ecb035bff
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Debug.Cheats.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Debug
+    className: DebugCheatsManager
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: ccc54901c280ff0a532eb8fd83444ffa
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: VisualizationConfiguration
+  - hash:
+      serializedVersion: 2
+      Hash: 573bbbf035cb3d06fad942a846ae0108
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: CharacterClass
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkFloorSwitchState
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 8fbc134fd506d97c845cf2b715231396
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: d272da1902310646dd18f1f4f63af0fd
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientCharSelectState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 26aaddb79991dcda774734af257c09ea
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: 
+    className: SelfDisable
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8a253660259bd5543e76d37ca287fae7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: 96bf9fc95f040d11e147ebf515f7a676
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: PersistentPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 3c5eb2335470a0db4f394d4ff89e52a2
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkLifeState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Relay.dll
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerThreaded
+  - hash:
+      serializedVersion: 2
+      Hash: 822b017f69be67cea86453aabd841187
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowCaster2D
+  - hash:
+      serializedVersion: 2
+      Hash: 4d594aa234a673c0548705e2f3117546
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: PopupPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 118c78a5ae030bb2e715f07900056d63
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientPostGameState
+  - hash:
+      serializedVersion: 2
+      Hash: 680840811a69e20a64f334171c7853b2
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: AnimatorTriggeredSpecialFX
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Shared.Infrastructure
+    className: UpdateRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: ab82dd42681dd4558cf828977524eff2
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerWaveSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: f2c1df89ded4135ae85ca9bbf6067ae5
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: TransformVariable
+  - hash:
+      serializedVersion: 2
+      Hash: cb21f281dc773c38e9a650bb8e08680a
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ScrollingMaterialUVs
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkProjectileState
+  - hash:
+      serializedVersion: 2
+      Hash: 185b457f2d52afc3ef98d0c37d841af5
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: e2c2e11c4c756e294f2a1201419d5853
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerBreakableLogic
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumField
+  - hash:
+      serializedVersion: 2
+      Hash: 20c6282a1f18eb0dade32b0fb90c7be7
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerFloorSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 25c0a6f0f19db4b7789f7a86bdcf4acc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineGlobalSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: 2388eb9e99b86b3813e7b6dbfe4b3e0c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 2737d1b1b4391401bd514890263af1ca
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: AvatarRegistry
+  - hash:
+      serializedVersion: 2
+      Hash: aadb33b0748ee25c95d6cf646ae5826b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ScreenSpaceShadows
+  - hash:
+      serializedVersion: 2
+      Hash: 92c63102c2d033d2e72edb56dd51aa86
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UIQuitPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 40cfbb49ea9f9ab8b89fa7e41429ee2b
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalRendererFeature
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVBox
+  - hash:
+      serializedVersion: 2
+      Hash: 1a6269649527167f9747058457359abc
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: UnityEventGameEventListener
+  - hash:
+      serializedVersion: 2
+      Hash: 611bc970ee9dc090779a3fac6a18fac6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 5c6e9f2acc8903febb1574d3bb0d31cb
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: NameGenerationData
+  - hash:
+      serializedVersion: 2
+      Hash: 1c1f2cabbb4d1a77fe976629abcd9a4d
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 27ec3360f0c0a6803ba71cc3106480b8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: a723a948335d52814d43ec01229ca0b3
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ForwardRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerToggleHistory
+  - hash:
+      serializedVersion: 2
+      Hash: 9294acf12afc2bc75c19b1592563ec87
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: AoeActionInput
+  - hash:
+      serializedVersion: 2
+      Hash: 0d562fc6c3e707f305720aa70c829339
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UITinter
+  - hash:
+      serializedVersion: 2
+      Hash: d7fa63d0508a5a1b2b516995665496f8
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: CharacterSwap
+  - hash:
+      serializedVersion: 2
+      Hash: 67026e16a78293eea2cdd4ae22b4ec68
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorAdjustments
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UnityServicesUIHandler
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6d6eb6cd75da58e8344a223c7300f346
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UIHUDButton
+  - hash:
+      serializedVersion: 2
+      Hash: 15c7882123faf77762757973def869e0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: AudioMixerConfigurator
+  - hash:
+      serializedVersion: 2
+      Hash: fbbd265b25e9e1ca6f2239720780ca1e
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ConnectionAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: HeroEmoteBar
+  - hash:
+      serializedVersion: 2
+      Hash: a7c3021ca3648a25dc7aac9fdba2b540
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ClientProjectileVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 022f51c1617d411cfeb00f8d89fd76e8
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerSwitchedDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac327467393cb6c8045a2fd90ff67e2
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPersistentCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 20301aa4e74ec9683b7164d5bb4d0ef6
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ShadowsMidtonesHighlights
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9e753e48be337c4b36a9a5eab69d7f82
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Editor
+    className: NetworkOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 09595e38e02a5464def0e96a6f196ea8
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3ed4fcd23b3e7745287c99a637247
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: cd1e91f5afed259a1512bbf18dc12bd7
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: 
+    className: SceneRenderPipeline
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: d5148808ee237d1a94d7b824ce984e09
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: f8d8a097859f8f7e417dd5c81fef746f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 97ecbebbd057e647e485e408573f1c1c
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Shared
+    className: ApplicationController
+  - hash:
+      serializedVersion: 2
+      Hash: 8188d174e75bfd5c6793ff4d7ba43f3e
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UITooltipPopup
+  - hash:
+      serializedVersion: 2
+      Hash: af56f77a30c1a2da1680c736a6f5c6e8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 4c96c7ab000cefc0b8e98bdc463ed168
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkHealthState
+  - hash:
+      serializedVersion: 2
+      Hash: f9365cad61f4226636a7d9f02bb319e9
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: RandomizedLight
+  - hash:
+      serializedVersion: 2
+      Hash: 7bc1b7964c59f6a9f8342fdb4aaf547f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 852ac4e9ceea699f7c1d76939cdc98da
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Renderer2DData
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: eaed50c9f3e1e24d3feb4c8b2f00278d
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerEnumHistory
+  - hash:
+      serializedVersion: 2
+      Hash: f63bc1f03f888b4a0d62f3d7fd55db4b
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: IPJoiningUI
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc1851a52274563b5ca2fab97383d93
+    assemblyName: Unity.Netcode.Runtime.dll
+    namespaceName: Unity.Netcode
+    className: NetworkObject
+  - hash:
+      serializedVersion: 2
+      Hash: 118c78a5ae030bb2e715f07900056d63
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerCharSelectState
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: eaf7a28d6026ee1eeaa03b66d53a6fc5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 37de53a49708b087da4050fc1ca7a6ee
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 5d0b2e443e2b49cd950f4fddc3f63123
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: cf2f04f7631a1b95a6b4e8cd0ed077fb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 7d1a3e12579b7bd0f94909057ffba8d0
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: CameraSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: e1944477d8f50021e8760157af7801c2
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRenderPipelineEditorResources
+  - hash:
+      serializedVersion: 2
+      Hash: dfa4c99b843093ec45efb06e42dd487a
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerAnimationHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ae634c0a905e90ae490103e942b17afd
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UICharSelectClassInfoBox
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Lobbies.dll
+    namespaceName: Unity.Services.Lobbies.Scheduler
+    className: TaskSchedulerWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 21289f7e6a40088dac0adc2d075c454b
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: LobbyListItemUI
+  - hash:
+      serializedVersion: 2
+      Hash: dabb872b38af2c5aea33f1c7233195da
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: PopupManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 71db2b31d710c73b67d67c22b5d6adcc
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: UIStateDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: e5ecba6b5a30534e3befb4b38391df9d
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientMainMenuState
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4d51d5ccf37d2089bdfe827617b784ff
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 4ffb35bd403ac0ca08f290ee6958f1c5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: eff63b9bf311107eace7b5dcd5e0b8a0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerProjectileLogic
+  - hash:
+      serializedVersion: 2
+      Hash: cba092932c1232418c34098d5deec2c5
+    assemblyName: Unity.Multiplayer.Tools.NetStatsReporting.dll
+    namespaceName: Unity.Multiplayer.Tools.NetStatsReporting
+    className: TestDataGeneratorComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 55a9c0e4ce8d04e0c3369f1f4c85e544
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Tonemapping
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientGameNetPortal
+  - hash:
+      serializedVersion: 2
+      Hash: 04885fa4c2e3f34bb92b18186472b2c4
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: Light2D
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 08b317331c04f4b158736572342f0372
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ClientCharacterVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 4db906cd5593a41d50763d0b4779f4b1
+    assemblyName: Unity.Netcode.Components.dll
+    namespaceName: Unity.Netcode.Components
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 7dbf450932234158be58ca2027563dcb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector3
+  - hash:
+      serializedVersion: 2
+      Hash: 776d8467edf14914559cbed9b13cca74
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UIMessageSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 118c78a5ae030bb2e715f07900056d63
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientBossRoomState
+  - hash:
+      serializedVersion: 2
+      Hash: 031576c833110bb709c5839213925ad5
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: SceneLoaderWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7b9b9d127787f95f2c90f12b31d90ae0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkAvatarGuidState
+  - hash:
+      serializedVersion: 2
+      Hash: 082126d032cc22804037f26289a7068a
+    assemblyName: Unity.Tutorials.Core.dll
+    namespaceName: Unity.Tutorials.Core
+    className: SceneObjectGuid
+  - hash:
+      serializedVersion: 2
+      Hash: 200ef297ed13b269447cfba9f5331845
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UITooltipDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectToggle
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 14fbe1b030b106b526b39711c4e1f4bc
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ChannelMixer
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: 8f0118fbc6fe278fd3612aabc0c9b313
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientClickFeedback
+  - hash:
+      serializedVersion: 2
+      Hash: 047a196d363c652361332caeba073522
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: CharacterClassContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f8ef02ec0a9c82648cdb14f645b220b6
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerCharacterMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 376e121062b66cadd01b75991d921f77
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: RaiseEventOnLifeChange
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: Test
+  - hash:
+      serializedVersion: 2
+      Hash: 4ac50f132ff766a577d10c40f11d2ead
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolumeAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddde81a4e90e45852dddeccdaa7a353
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkGameState
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: ea14e497cf4ae917c63af97075135e09
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: UIHealth
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerUIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: f7d8c5e1d036889d8802fe3a5cce7c75
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerPanel
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 91b88754bf9811ac48197b0030dd8c88
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: ColorCurves
+  - hash:
+      serializedVersion: 2
+      Hash: d5b46e70565d2427a61586c92c3a9840
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientGenericMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 7df789d7b3f018bc4ddd0aecd269cbba
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering.Universal
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e92046b1934c5a9b0190f3f315b581b8
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: ActionDescription
+  - hash:
+      serializedVersion: 2
+      Hash: 164221013889a03b3422d30debb35460
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: VolumeComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 7398db536c5ca1347a57156c7c13ed51
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: LobbyCreationUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0bcc1c23e70eab6bb5ec7e5f89a0095d
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 6b3057497eb6f0e52612476af702bf8c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: UIFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 62824bb9557c7e987502f2fbd2a26819
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Netcode.Components.dll
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: d4952da2307e1ace577e86ed08911a04
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: EnableOrDisableColliderOnAwake
+  - hash:
+      serializedVersion: 2
+      Hash: 8341ee4c7fc53a6b12ea7cb601af298b
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ServerAdditiveSceneLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 4678e37e5f25172d96da84b348025ce2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner2D
+  - hash:
+      serializedVersion: 2
+      Hash: c427c9ccc497fad85fe7657465ece0d9
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: UISettingsCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: AnimatorNodeHook
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: GameEvent
+  - hash:
+      serializedVersion: 2
+      Hash: c3bdf2c7f838c5521810d679a9494513
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerGameNetPortal
+  - hash:
+      serializedVersion: 2
+      Hash: 7b6f818c7176b32f6b8359f45192b2ec
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkBreakableState
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerValue
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: a4ba5aba93de88a601e6e45a6ad7a615
+    assemblyName: Unity.Multiplayer.Samples.Utilities.dll
+    namespaceName: Unity.Multiplayer.Samples.Utilities
+    className: ClientLoadingScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Relay.dll
+    namespaceName: Unity.Services.Relay.Scheduler
+    className: TaskSchedulerWebGL
+  - hash:
+      serializedVersion: 2
+      Hash: f39dc91174a1d1497511a824305c40eb
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: BossMusicStarter
+  - hash:
+      serializedVersion: 2
+      Hash: 118c78a5ae030bb2e715f07900056d63
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerPostGameState
+  - hash:
+      serializedVersion: 2
+      Hash: 1f0602e7bad1e0a9cba31ce292eee8bb
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerHBox
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIntField
+  - hash:
+      serializedVersion: 2
+      Hash: 91bbe67c3e33d61ae760936f043db32a
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: LiftGammaGain
+  - hash:
+      serializedVersion: 2
+      Hash: f4861deaa304d07e4068f87e546ceff9
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: PartyHUD
+  - hash:
+      serializedVersion: 2
+      Hash: bb6b9a25e695d7981ce2d853a697a828
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerVector4
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Services.Lobbies.dll
+    namespaceName: Unity.Services.Lobbies.Scheduler
+    className: TaskSchedulerThreaded
+  - hash:
+      serializedVersion: 2
+      Hash: 8d35f16c5022311c6f4d9432be73bfcf
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerIndirectFloatField
+  - hash:
+      serializedVersion: 2
+      Hash: b7d58df3c6d92c60e3611c0a808aa0dc
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerBitField
+  - hash:
+      serializedVersion: 2
+      Hash: fe4d7cc6609c425c0828b0b30c701a5c
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkNameState
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3db6150432d0df1c5aa9af183c57757
+    assemblyName: Unity.Netcode.Components.dll
+    namespaceName: Unity.Netcode.Components
+    className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: NavMeshComponents.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 051985fb108378b551a6e6b259cfa0a0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: SpecialFXGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 14bb5bc24cc6a77bdbb48c1c717f6db3
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: DebugUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: b02546fd00ac6dc2fae4119a1a3ace64
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 89229a620f85ef21de336ab85a13d351
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerCanvas
+  - hash:
+      serializedVersion: 2
+      Hash: 55441d74ea1e6652b2524eed5fa30e9e
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UIStateDisplayHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 967424b705cafd135c61852b775e61cb
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: BossDeathHelmetHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 5ed9af3c7af5d90091ccbedaa3abfc3b
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: 
+    className: FXProjectile
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f79e983672d079ff24eee15484fb74b8
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerColor
+  - hash:
+      serializedVersion: 2
+      Hash: 2e47ef8affc1b2048d549c52fbaae750
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: ServerBossRoomState
+  - hash:
+      serializedVersion: 2
+      Hash: 361f3edf1c87ede3c7d7eacefea855e0
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: FilmGrain
+  - hash:
+      serializedVersion: 2
+      Hash: 8b51e90600932f75ab783341ebad13aa
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: 
+    className: TransportPicker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: NavigationSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 8679846e4b446b15ef59d74cb1d377cb
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: LobbyUIMediator
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerRow
+  - hash:
+      serializedVersion: 2
+      Hash: 23b60c4b16cdff673a68d1af70fe729c
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: LensFlareDataSRP
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bb84c20261849c6281bb352683a48517
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: UIName
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 435b91cde8a03bad1d5c99895fa46992
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Experimental.Rendering
+    className: ProbeVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 0ce2dcc74994cf3864caf35dd46b62c1
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: PlayerServerCharacter
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 78973402d66b598294b4dabc0f8f15df
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientMusicPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 143342b74dea7c5c7f869153b9505858
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: AnimatorFootstepSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 101686b8536e637ee713db685aaed6b7
+    assemblyName: Unity.Netcode.Runtime.dll
+    namespaceName: Unity.Netcode
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ChargedActionInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 73563199e346d3f01b61f1569e9f1bb0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: TransformRegister
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 417c3451e79e6495cded89c154f7bfb7
+    assemblyName: Unity.Netcode.Runtime.dll
+    namespaceName: Unity.Netcode.Transports.UNET
+    className: UNetTransport
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff40fb5747e8ef75712c5ed258e42e0
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: TimedSelfDestruct
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClickFeedbackLerper
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f0490b6fb7955e7a90bef471973823a3
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientInputSender
+  - hash:
+      serializedVersion: 2
+      Hash: ae1929a56533ae8baaed75bd9ec19596
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientPlayerAvatar
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 2007552380ff202eaf7ecc0cca9f2432
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: 
+    className: RoomNameBox
+  - hash:
+      serializedVersion: 2
+      Hash: 0f63040428d5cf0c84d63237ea09ed22
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UISettingsPanel
+  - hash:
+      serializedVersion: 2
+      Hash: ce46c87ede95ddd711d94d07c476acbb
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PostProcessData
+  - hash:
+      serializedVersion: 2
+      Hash: 775cb71fe628cc1abe9811337bf8b34e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalAdditionalLightData
+  - hash:
+      serializedVersion: 2
+      Hash: 4ae0fafa322e9cc803f60e26d33c85a1
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientDoorVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 251b7e456dfa0946927ebac4efecd211
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine
+    className: LightAnchor
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 16c7f16180ef576ff52216db6266235c
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: ClientAvatarGuidHandler
+  - hash:
+      serializedVersion: 2
+      Hash: dc8844c12904888cc84d1803689fe066
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: PhysicsWrapper
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 924151518b0617aca3f4a3b2e422689f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: DecalProjector
+  - hash:
+      serializedVersion: 2
+      Hash: fcf4e94a697865870f940e8198f3b024
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: aef6c6ec9247c1a2fbfbf4f11101343f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Client
+    className: UICharSelectPlayerSeat
+  - hash:
+      serializedVersion: 2
+      Hash: cc38ea342b0474acf7b658c0f0ea653d
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: IPHostingUI
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ConnectionStatusMessageUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: f6e3a7989819b98d72cbc3eb08139e15
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: GameDataSource
+  - hash:
+      serializedVersion: 2
+      Hash: fe1080a47424fcd6eb9d2fc078dce299
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: PaniniProjection
+  - hash:
+      serializedVersion: 2
+      Hash: a4481fe4d780988c33409a67a458c750
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: PostGameUI
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3fa1a367fddc65eb32515029503334
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerButton
+  - hash:
+      serializedVersion: 2
+      Hash: 1007c4ffaac27fd104965a6f31c1e572
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: HeroActionBar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: ce45adeb5a6c511e1bbc3a5dfad5889e
+    assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
+    namespaceName: UnityEngine.Rendering.Universal
+    className: UniversalRendererData
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 904aca3f36c2272e45565906d39c3382
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: GameNetPortal
+  - hash:
+      serializedVersion: 2
+      Hash: ad6d2c5be0082b60640446f3bbe0d1fd
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering
+    className: Volume
+  - hash:
+      serializedVersion: 2
+      Hash: 66a76d307baa3e8eb65d877c961f1b43
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkDoorState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Editor
+    className: NetworkLatencyWarning
+  - hash:
+      serializedVersion: 2
+      Hash: 36025d42bf23fda83a55bf1429201821
+    assemblyName: Unity.RenderPipelines.Core.Runtime.dll
+    namespaceName: UnityEngine.Rendering.UI
+    className: DebugUIHandlerFoldout
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Shared.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom
+    className: NetworkStats
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e2e04eb525d46706f68c2a658f3da86f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Client.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Visual
+    className: ClientBreakableVisualization
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Multiplayer.Samples.BossRoom.Server.dll
+    namespaceName: Unity.Multiplayer.Samples.BossRoom.Server
+    className: DynamicNavObstacle
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 41a0128a175dc0826b842ed106b3f271
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: RuntimeNetStatsMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: af89e7b0a5e6df09ddaf9a9d4eb3a174
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Component.dll
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: CustomTestDataGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 2f92929b7a6723b26aac444da5b78525
+    assemblyName: Unity.Multiplayer.Tools.NetStatsMonitor.Configuration.dll
+    namespaceName: Unity.Multiplayer.Tools.NetStatsMonitor
+    className: NetStatsMonitorConfiguration
+  platform: 19
+  scenePathNames:
+  - Assets/BossRoom/Scenes/Startup.unity
+  - Assets/BossRoom/Scenes/MainMenu.unity
+  - Assets/BossRoom/Scenes/CharSelect.unity
+  - Assets/BossRoom/Scenes/BossRoom.unity
+  - Assets/BossRoom/Scenes/PostGame.unity
+  - Assets/BossRoom/Scenes/BossRoom/DungeonBossRoom.unity
+  - Assets/BossRoom/Scenes/BossRoom/DungeonEntrance.unity
+  - Assets/BossRoom/Scenes/BossRoom/DungeonTransition.unity
+  playerPath: D:/GitHub/BossRoom/Builds/Client/Unity Boss Room.exe

@@ -1,0 +1,24 @@
+
+=== Sat Jun 18 14:15:41 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.cinemachine from version 2.7.4 to 2.8.4
+  com.unity.collab-proxy from version 1.15.15 to 1.15.17
+  com.unity.ide.rider from version 3.0.7 to 3.0.14
+  com.unity.ide.visualstudio from version 2.0.14 to 2.0.15
+  com.unity.learn.iet-framework from version 2.1.1 to 2.2.1
+  com.unity.postprocessing from version 3.1.1 to 3.2.2
+  com.unity.render-pipelines.universal from version 10.8.1 to 12.1.7
+  com.unity.services.authentication from version 1.0.0-pre.4 to 2.0.0
+  com.unity.timeline from version 1.4.8 to 1.6.4
+
+=== Wed Jul  6 10:01:14 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.services.relay from version 1.0.1-pre.5 to 1.0.3
