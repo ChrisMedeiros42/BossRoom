@@ -1,41 +1,41 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/GitHub/BossRoom/Packages/manifest.json
+    m_FilePath: D:/GitHub/BossRoom/BossRoom/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637926840749110149
-    m_Hash: 2768351691
+      ticks: 638157759629821886
+    m_Hash: 2428866476
   m_LockFileStatus:
-    m_FilePath: D:/GitHub/BossRoom/Packages/packages-lock.json
+    m_FilePath: D:/GitHub/BossRoom/BossRoom/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637926841557155785
-    m_Hash: 893625459
+      ticks: 638157760237289167
+    m_Hash: 3011852432
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
-    D:/GitHub/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json:
-      m_FilePath: D:/GitHub/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json
+    D:/GitHub/BossRoom/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json:
+      m_FilePath: D:/GitHub/BossRoom/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json
       m_PathExists: 1
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637867567420000000
-      m_Hash: 1619541410
+        ticks: 637927339576551265
+      m_Hash: 4175651241
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/GitHub/BossRoom/Packages
-m_EditorVersion: 2021.3.5f1 (40eb3a945986)
+m_ProjectPath: D:/GitHub/BossRoom/BossRoom/Packages
+m_EditorVersion: 2021.3.21f1 (1b156197d683)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -47,7 +47,7 @@ m_ResolvedPackages:
   type: 
   description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
     like pivot, borders and Physics shape
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -68,6 +68,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -86,7 +87,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 0.1.0-preview.2
   source: 5
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ai.navigation.components@0fc6f532e4
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ai.navigation.components@0fc6f532e4
   assetPath: Packages/com.unity.ai.navigation.components
   name: com.unity.ai.navigation.components
   displayName: NavMesh Components
@@ -98,13 +99,11 @@ m_ResolvedPackages:
   type: 
   description: High-level NavMesh components for building and using NavMeshes at
     runtime and at edit time.
-  status: 4
+  status: 0
   errors: []
   versions:
-    all:
-    - 1.0.0-exp.1
-    compatible:
-    - 1.0.0-exp.1
+    all: []
+    compatible: []
     verified: 
   dependencies:
   - name: com.unity.modules.ai
@@ -120,6 +119,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -133,12 +133,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.cinemachine@2.8.6
+- packageId: com.unity.cinemachine@2.8.9
   testable: 0
   isDirectDependency: 1
-  version: 2.8.6
+  version: 2.8.9
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.cinemachine@2.8.6
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.cinemachine@2.8.9
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -147,13 +147,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: cinematography
-  type: 
+  type: asset
   description: "Smart camera tools for passionate creators. \n\nNew starting from
     2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
     menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
     of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
     this version from the Package Manager."
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -197,6 +197,7 @@ m_ResolvedPackages:
     - 2.6.11
     - 2.6.14
     - 2.6.15
+    - 2.6.17
     - 2.7.1
     - 2.7.2
     - 2.7.3
@@ -213,15 +214,36 @@ m_ResolvedPackages:
     - 2.8.3
     - 2.8.4
     - 2.8.6
+    - 2.8.9
     - 2.9.0-pre.1
     - 2.9.0-pre.6
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
     compatible:
-    - 2.8.6
+    - 2.8.9
     - 2.9.0-pre.1
     - 2.9.0-pre.6
-    verified: 2.8.6
-  dependencies: []
-  resolvedDependencies: []
+    - 2.9.1
+    - 2.9.2
+    - 2.9.4
+    - 2.9.5
+    verified: 2.8.9
+  dependencies:
+  - name: com.unity.test-framework
+    version: 1.1.31
+  resolvedDependencies:
+  - name: com.unity.test-framework
+    version: 1.1.31
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
   keywords:
   - camera
   - follow
@@ -252,25 +274,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637891007790000000
+  datePublishedTicks: 637975495930000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
-    revision: 5e26d3cd08865a98219c0d2d3a8cc689018dd75b
+    revision: 92bcde243d623d77c64960a552f29396770af1e1
     path: 
   unityLifecycle:
-    version: 2.8.6
+    version: 2.8.9
     nextVersion: 
-- packageId: com.unity.collab-proxy@1.15.18
+- packageId: com.unity.collab-proxy@2.0.1
   testable: 0
   isDirectDependency: 1
-  version: 1.15.18
+  version: 2.0.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.collab-proxy@1.15.18
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.collab-proxy@2.0.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -279,12 +302,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
-  status: 4
+  type: asset
+  description: The package gives you the ability to use the Unity Version Control
+    in the Unity editor. To use Unity Version Control, a subscription is required.
+    Learn more about how you can get started for free by visiting plasticscm.com.
+  status: 0
   errors: []
   versions:
     all:
@@ -337,6 +359,9 @@ m_ResolvedPackages:
     - 1.15.18
     - 1.17.0
     - 1.17.1
+    - 1.17.2
+    - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -344,36 +369,19 @@ m_ResolvedPackages:
     - 2.0.0-preview.20
     - 2.0.0-preview.21
     - 2.0.0-preview.22
+    - 2.0.0
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.15.18
-    - 1.17.0
-    - 1.17.1
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.15.18
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.4.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+    verified: 2.0.1
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -381,6 +389,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -395,25 +404,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637888962690000000
-  documentationUrl: 
+  datePublishedTicks: 638125977010000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 611215dcd30048fa921b4be160048bad4022d65f
+    revision: 8740b4e630f877841cfa8e22ddfbcb237b70a9e6
     path: 
   unityLifecycle:
-    version: 1.15.18
+    version: 2.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.14
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.14
+  version: 3.0.18
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ide.rider@3.0.14
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -422,11 +432,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -461,10 +471,12 @@ m_ResolvedPackages:
     - 3.0.13
     - 3.0.14
     - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
     compatible:
-    - 3.0.14
-    - 3.0.15
-    verified: 3.0.15
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -479,25 +491,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637861245770000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e6bfc84a08a0876a2c20ec2ee0883b5ece331dfd
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.14
+    version: 3.0.18
     nextVersion: 
-- packageId: com.unity.ide.visualstudio@2.0.15
+- packageId: com.unity.ide.visualstudio@2.0.17
   testable: 0
   isDirectDependency: 1
-  version: 2.0.15
+  version: 2.0.17
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ide.visualstudio@2.0.15
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -506,11 +519,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -533,10 +546,10 @@ m_ResolvedPackages:
     - 2.0.14
     - 2.0.15
     - 2.0.16
+    - 2.0.17
     compatible:
-    - 2.0.15
-    - 2.0.16
-    verified: 2.0.16
+    - 2.0.17
+    verified: 2.0.17
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -557,25 +570,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637841884840000000
-  documentationUrl: 
+  datePublishedTicks: 638059987360000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: ca1ece42f5a2c5484ba15a15bb975ccc1f6a1a3c
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.15
+    version: 2.0.17
     nextVersion: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -584,11 +598,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -618,7 +632,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -631,12 +646,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-- packageId: com.unity.learn.iet-framework@2.2.2
+- packageId: com.unity.learn.iet-framework@3.1.1
   testable: 0
   isDirectDependency: 1
-  version: 2.2.2
+  version: 3.1.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.learn.iet-framework@2.2.2
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.learn.iet-framework@3.1.1
   assetPath: Packages/com.unity.learn.iet-framework
   name: com.unity.learn.iet-framework
   displayName: Tutorial Framework
@@ -645,10 +660,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: This package is used to display interactive in-Editor tutorials in
     tutorial projects and project templates.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -701,10 +716,15 @@ m_ResolvedPackages:
     - 2.2.0
     - 2.2.1
     - 2.2.2
+    - 2.2.3
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
     compatible:
-    - 2.2.1
-    - 2.2.2
-    verified: 2.2.2
+    - 3.1.1
+    - 3.1.2
+    - 3.1.3
+    verified: 3.1.3
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
@@ -724,25 +744,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637901595050000000
+  datePublishedTicks: 637986692310000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/iet-package.git
-    revision: c99914e6b0dec3c595bce2be11261c7bfff5c155
+    revision: 72747f66cf61e0f22da00baa7b25bde17b14c3dd
     path: 
   unityLifecycle:
-    version: 2.2.1
+    version: 3.1.1
     nextVersion: 
 - packageId: com.unity.memoryprofiler@0.7.1-preview.1
   testable: 0
   isDirectDependency: 1
   version: 0.7.1-preview.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.memoryprofiler@0.7.1-preview.1
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.memoryprofiler@0.7.1-preview.1
   assetPath: Packages/com.unity.memoryprofiler
   name: com.unity.memoryprofiler
   displayName: Memory Profiler
@@ -751,12 +772,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Memory Profiler offers a unified solution allowing you to profile
     both small projects on mobile devices and big AAA projects on high end machines.
     It provides actionable information about allocations in the engine to allow developers
     to manage and reduce memory usage.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -798,6 +819,9 @@ m_ResolvedPackages:
     - 0.7.1-preview.1
     - 1.0.0-pre.1
     - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0
+    - 1.1.0-exp.1
     compatible:
     - 0.1.0-preview.1
     - 0.1.0-preview.2
@@ -856,7 +880,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637907255460000000
   documentationUrl: 
@@ -869,12 +894,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.multiplayer.tools@1.0.0-pre.8
+- packageId: com.unity.multiplayer.tools@1.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0-pre.8
+  version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.multiplayer.tools@1.0.0-pre.8
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.multiplayer.tools@1.0.0
   assetPath: Packages/com.unity.multiplayer.tools
   name: com.unity.multiplayer.tools
   displayName: Multiplayer Tools
@@ -883,9 +908,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: tool
   description: Adds a suite of tools that improve workflows for multiplayer development
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -894,13 +919,11 @@ m_ResolvedPackages:
     - 1.0.0-pre.7
     - 1.0.0-pre.8
     - 1.0.0
+    - 1.1.0
     compatible:
-    - 1.0.0-pre.2
-    - 1.0.0-pre.6
-    - 1.0.0-pre.7
-    - 1.0.0-pre.8
     - 1.0.0
-    verified: 
+    - 1.1.0
+    verified: 1.0.0
   dependencies:
   - name: com.unity.profiling.core
     version: 1.0.0-pre.1
@@ -920,9 +943,9 @@ m_ResolvedPackages:
   - name: com.unity.nuget.mono-cecil
     version: 1.10.1
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -951,25 +974,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637909286010000000
+  datePublishedTicks: 637921144650000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.multiplayer.tools.git
-    revision: bd02ac4b1799b3c071ceecb19b4478612b97ecff
+    revision: 3928615cbda6dd5201995c76b9ee68af8cd0f73a
     path: 
   unityLifecycle:
-    version: 
-    nextVersion: 1.0.0-pre.7
-- packageId: com.unity.netcode.gameobjects@1.0.0-pre.9
+    version: 1.0.0
+    nextVersion: 
+- packageId: com.unity.netcode.gameobjects@1.2.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0-pre.9
+  version: 1.2.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.netcode.gameobjects@1.0.0-pre.9
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.netcode.gameobjects@1.2.0
   assetPath: Packages/com.unity.netcode.gameobjects
   name: com.unity.netcode.gameobjects
   displayName: Netcode for GameObjects
@@ -978,11 +1002,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Netcode for GameObjects is a high-level netcode SDK that provides
     networking capabilities to GameObject/MonoBehaviour workflows within Unity and
     sits on top of underlying transport layer.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -996,32 +1020,27 @@ m_ResolvedPackages:
     - 1.0.0-pre.9
     - 1.0.0-pre.10
     - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0
+    - 1.2.0
     compatible:
-    - 1.0.0-pre.2
-    - 1.0.0-pre.3
-    - 1.0.0-pre.4
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.0.0-pre.7
-    - 1.0.0-pre.8
-    - 1.0.0-pre.9
-    - 1.0.0-pre.10
-    - 1.0.0
-    verified: 
+    - 1.2.0
+    verified: 1.2.0
   dependencies:
   - name: com.unity.nuget.mono-cecil
     version: 1.10.1
   - name: com.unity.transport
-    version: 1.0.0
+    version: 1.3.0
   resolvedDependencies:
   - name: com.unity.nuget.mono-cecil
     version: 1.10.1
   - name: com.unity.transport
-    version: 1.0.0
+    version: 1.3.1
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -1040,25 +1059,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637877999870000000
-  documentationUrl: 
+  datePublishedTicks: 638062114260000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.netcode.gameobjects.git
-    revision: cdca1eb844973e9f314f6a263bb4c0497d9e396f
+    revision: 789f0930ead8e5ba27e123323f407d6f3393aa7b
     path: 
   unityLifecycle:
-    version: 
-    nextVersion: 1.0.0-pre.9
+    version: 1.2.0
+    nextVersion: 
 - packageId: com.unity.postprocessing@3.2.2
   testable: 0
   isDirectDependency: 1
   version: 3.2.2
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.postprocessing@3.2.2
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.postprocessing@3.2.2
   assetPath: Packages/com.unity.postprocessing
   name: com.unity.postprocessing
   displayName: Post Processing
@@ -1067,11 +1087,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The post-processing stack (v2) comes with a collection of effects
     and image filters you can apply to your cameras to improve the visuals of your
     games.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1128,7 +1148,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637855259850000000
   documentationUrl: 
@@ -1141,12 +1162,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.2.2
     nextVersion: 
-- packageId: com.unity.render-pipelines.universal@12.1.7
+- packageId: com.unity.render-pipelines.universal@12.1.10
   testable: 0
   isDirectDependency: 1
-  version: 12.1.7
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.render-pipelines.universal@12.1.7
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.universal@12.1.10
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1160,7 +1181,7 @@ m_ResolvedPackages:
     Pipeline, made by Unity. URP provides artist-friendly workflows that let you
     quickly and easily create optimized graphics across a range of platforms, from
     mobile to high-end consoles and PCs.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1207,26 +1228,28 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 12.1.10
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.mathematics
     version: 1.2.1
   - name: com.unity.burst
-    version: 1.5.0
+    version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 12.1.10
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 12.1.10
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1238,7 +1261,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 12.1.7
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   keywords:
@@ -1255,6 +1278,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -1266,14 +1290,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 12.1.10
     nextVersion: 
-- packageId: com.unity.services.authentication@2.0.0
+- packageId: com.unity.services.authentication@2.4.0
   testable: 0
   isDirectDependency: 1
-  version: 2.0.0
+  version: 2.4.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.services.authentication@2.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.authentication@2.4.0
   assetPath: Packages/com.unity.services.authentication
   name: com.unity.services.authentication
   displayName: Authentication
@@ -1282,7 +1306,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Client SDK offering player identity management for Unity Gaming Services.
 
 
@@ -1292,7 +1316,7 @@ m_ResolvedPackages:
 
     Player
     management is available in the Unity Dashboard.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1300,24 +1324,38 @@ m_ResolvedPackages:
     - 1.0.0-pre.6
     - 1.0.0-pre.37
     - 2.0.0
+    - 2.1.1
+    - 2.2.0
+    - 2.3.1
+    - 2.4.0
+    - 2.5.0-pre.3
     compatible:
-    - 2.0.0
-    verified: 2.0.0
+    - 2.4.0
+    - 2.5.0-pre.3
+    verified: 2.4.0
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.core
-    version: 1.3.1
+    version: 1.7.0
   - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.ugui
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.8.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   keywords: []
   registry:
@@ -1327,25 +1365,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637853947760000000
+  datePublishedTicks: 638059514280000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 1a2efa54d7c36f506ac22e88dfb68cb9f6003691
+    revision: d3c86b642f156fd98e7696fff1df8ab0fd12c039
     path: 
   unityLifecycle:
-    version: 2.0.0
+    version: 2.4.0
     nextVersion: 
-- packageId: com.unity.services.lobby@1.0.1
+- packageId: com.unity.services.lobby@1.0.3
   testable: 0
   isDirectDependency: 1
-  version: 1.0.1
+  version: 1.0.3
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.services.lobby@1.0.1
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.lobby@1.0.3
   assetPath: Packages/com.unity.services.lobby
   name: com.unity.services.lobby
   displayName: Lobby
@@ -1354,12 +1393,12 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Enable players to find, create, and join lobbies with Lobby. Add Lobby
     to your multiplayer game to empower players to create the gaming experiences
     they want. Features include Quick Join, Public Lobby, and Private Match to allow
     flexibility in how players want to game with each other.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1367,9 +1406,16 @@ m_ResolvedPackages:
     - 1.0.0-pre.6
     - 1.0.0
     - 1.0.1
+    - 1.0.3
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
     compatible:
-    - 1.0.1
-    verified: 1.0.1
+    - 1.0.3
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0-pre.3
+    verified: 1.0.3
   dependencies:
   - name: com.unity.services.core
     version: 1.4.0
@@ -1389,7 +1435,7 @@ m_ResolvedPackages:
     version: 2.0.0
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.8.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -1411,7 +1457,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequestwww
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.0.0
+    version: 2.4.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -1420,25 +1472,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637891701930000000
+  datePublishedTicks: 637971193970000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.services.rooms.git
-    revision: 7ad52169b3632cbc368538244f27229dd507fca3
+    revision: 477c46432b558786fc1c7837e9ed9d4b2ad7de7f
     path: 
   unityLifecycle:
-    version: 1.0.1
-    nextVersion: 
-- packageId: com.unity.services.relay@1.0.3
+    version: 1.0.3
+    nextVersion: 1.1.0-pre.1
+- packageId: com.unity.services.relay@1.0.5
   testable: 0
   isDirectDependency: 1
-  version: 1.0.3
+  version: 1.0.5
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.services.relay@1.0.3
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.relay@1.0.5
   assetPath: Packages/com.unity.services.relay
   name: com.unity.services.relay
   displayName: Relay
@@ -1447,7 +1500,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'Connect the players of your peer-hosted games with Relay. Your games
     will also benefit from improved reliability, privacy and the ability to communicate
     across platforms. To get started, enable listen-server UDP networking for your
@@ -1456,7 +1509,7 @@ m_ResolvedPackages:
 
     Features include an allocation service
     to join game hosts via code, multi-region support, and more.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1469,16 +1522,18 @@ m_ResolvedPackages:
     - 1.0.1-pre.6
     - 1.0.2
     - 1.0.3
+    - 1.0.4
+    - 1.0.5
     compatible:
-    - 1.0.3
-    verified: 1.0.3
+    - 1.0.5
+    verified: 1.0.5
   dependencies:
   - name: com.unity.services.core
     version: 1.4.0
   - name: com.unity.services.authentication
     version: 2.0.0
   - name: com.unity.services.qos
-    version: 1.0.1
+    version: 1.1.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.unitywebrequestassetbundle
@@ -1492,10 +1547,10 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.transport
-    version: 1.0.0
+    version: 1.3.0
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.8.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -1503,21 +1558,25 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.0.0
+    version: 2.4.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.services.qos
-    version: 1.0.1
+    version: 1.1.0
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.modules.unitywebrequestassetbundle
@@ -1535,7 +1594,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequestwww
     version: 1.0.0
   - name: com.unity.transport
-    version: 1.0.0
+    version: 1.3.1
   keywords: []
   registry:
     id: main
@@ -1544,25 +1603,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637896119780000000
+  datePublishedTicks: 638056035740000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.services.relay.git
-    revision: d8a812545068ef0053b0c0cb6d78efea9d2fcaad
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 159fd0991355fd3398ba0a9d8c79fc0048d716e3
     path: 
   unityLifecycle:
-    version: 1.0.3
+    version: 1.0.5
     nextVersion: 
 - packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.test-framework@1.1.31
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1571,9 +1631,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1610,15 +1670,27 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 1.1.33
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1643,7 +1715,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637804266210000000
   documentationUrl: 
@@ -1661,7 +1734,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -1670,7 +1743,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1691,7 +1764,7 @@ m_ResolvedPackages:
     Great performance. Since the geometry created by TextMeshPro
     uses two triangles per character just like Unity''s text components, this improved
     visual quality and flexibility comes at no additional performance cost.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1778,12 +1851,15 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -1808,7 +1884,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1826,7 +1903,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.timeline@1.6.4
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1835,10 +1912,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -1914,12 +1991,24 @@ m_ResolvedPackages:
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
     - 1.7.0-pre.2
     - 1.7.0
     - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.4
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -1952,7 +2041,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637789039180000000
   documentationUrl: 
@@ -1970,7 +2060,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.toolchain.macos-x86_64-linux-x86_64@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.toolchain.macos-x86_64-linux-x86_64@1.0.0
   assetPath: Packages/com.unity.toolchain.macos-x86_64-linux-x86_64
   name: com.unity.toolchain.macos-x86_64-linux-x86_64
   displayName: Toolchain MacOS Linux x64
@@ -1979,10 +2069,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Cross-compilation toolchain to build player target Linux x86_64 on
     host Darwin x86_64
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2007,6 +2097,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
     compatible:
     - 0.1.4-preview
     - 0.1.5-preview
@@ -2029,6 +2121,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
     verified: 
   dependencies:
   - name: com.unity.sysroot
@@ -2053,7 +2147,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637771494070000000
   documentationUrl: 
@@ -2071,7 +2166,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2085,7 +2180,7 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2115,6 +2210,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2133,7 +2229,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.0
   source: 5
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.veriorpies.parrelsync@bb3d5067e4
   assetPath: Packages/com.veriorpies.parrelsync
   name: com.veriorpies.parrelsync
   displayName: ParrelSync
@@ -2146,7 +2242,7 @@ m_ResolvedPackages:
   description: ParrelSync is a Unity editor extension that allows users to test multiplayer
     gameplay without building the project by having another Unity editor window opened
     and mirror the changes from the original project.
-  status: 4
+  status: 0
   errors: []
   versions:
     all: []
@@ -2166,6 +2262,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2184,7 +2281,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2196,7 +2293,7 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2214,6 +2311,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2232,7 +2330,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2243,7 +2341,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2261,6 +2359,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2279,7 +2378,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2291,7 +2390,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2309,6 +2408,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2327,7 +2427,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2339,7 +2439,7 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2357,6 +2457,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2375,7 +2476,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2387,7 +2488,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2405,6 +2506,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2423,7 +2525,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2435,7 +2537,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2457,6 +2559,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2475,7 +2578,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2487,7 +2590,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2513,6 +2616,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2531,7 +2635,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2544,7 +2648,7 @@ m_ResolvedPackages:
   description: 'The ImageConversion module implements the ImageConversion class which
     provides helper methods to convert images from and to PNG, JPEG or EXR formats.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2562,6 +2666,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2580,7 +2685,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2592,7 +2697,7 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2610,6 +2715,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2628,7 +2734,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2640,7 +2746,7 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2658,6 +2764,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2676,7 +2783,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2688,7 +2795,7 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2706,6 +2813,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2724,7 +2832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2736,7 +2844,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2754,6 +2862,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2772,7 +2881,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2784,7 +2893,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2802,6 +2911,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2820,7 +2930,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2832,7 +2942,7 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2854,6 +2964,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2872,7 +2983,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2884,7 +2995,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2902,6 +3013,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2920,7 +3032,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2932,7 +3044,7 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -2958,6 +3070,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -2976,7 +3089,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2987,7 +3100,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3009,6 +3122,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3027,7 +3141,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3039,7 +3153,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3057,6 +3171,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3075,7 +3190,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3087,7 +3202,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3121,6 +3236,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3139,7 +3255,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3151,7 +3267,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3169,6 +3285,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3187,7 +3304,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3199,7 +3316,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3225,6 +3342,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3243,7 +3361,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3255,7 +3373,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3273,6 +3391,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3291,7 +3410,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3303,7 +3422,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3329,6 +3448,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3347,7 +3467,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3359,7 +3479,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3385,6 +3505,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3403,7 +3524,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3415,7 +3536,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3441,6 +3562,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3459,7 +3581,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3471,7 +3593,7 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3513,6 +3635,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3531,7 +3654,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3543,7 +3666,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3565,6 +3688,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3583,7 +3707,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3595,7 +3719,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3625,6 +3749,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3643,7 +3768,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3655,7 +3780,7 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3687,6 +3812,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3705,7 +3831,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3717,7 +3843,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3735,6 +3861,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3753,7 +3880,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3765,7 +3892,7 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3795,6 +3922,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3808,12 +3936,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.multiplayer.samples.coop@file:D:\GitHub\BossRoom\Packages\com.unity.multiplayer.samples.coop
+- packageId: com.unity.multiplayer.samples.coop@file:D:\GitHub\BossRoom\BossRoom\Packages\com.unity.multiplayer.samples.coop
   testable: 1
   isDirectDependency: 1
   version: 1.2.0-pre
   source: 3
-  resolvedPath: D:\GitHub\BossRoom\Packages\com.unity.multiplayer.samples.coop
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Packages\com.unity.multiplayer.samples.coop
   assetPath: Packages/com.unity.multiplayer.samples.coop
   name: com.unity.multiplayer.samples.coop
   displayName: Multiplayer Samples Utilities
@@ -3825,7 +3953,7 @@ m_ResolvedPackages:
   type: template
   description: Utilities package built on top of Netcode for GameObjects, providing
     useful scripts and tools.
-  status: 4
+  status: 0
   errors: []
   versions:
     all: []
@@ -3844,21 +3972,21 @@ m_ResolvedPackages:
     version: 1.0.1-pre.5
   resolvedDependencies:
   - name: com.unity.learn.iet-framework
-    version: 2.2.2
+    version: 3.1.1
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.settings-manager
     version: 1.0.3
   - name: com.unity.netcode.gameobjects
-    version: 1.0.0-pre.9
+    version: 1.2.0
   - name: com.unity.nuget.mono-cecil
     version: 1.10.1
   - name: com.unity.transport
-    version: 1.0.0
+    version: 1.3.1
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -3870,17 +3998,21 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.0.0
+    version: 2.4.0
   - name: com.unity.nuget.newtonsoft-json
     version: 3.0.2
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.8.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
   - name: com.unity.services.lobby
-    version: 1.0.1
+    version: 1.0.3
   - name: com.unity.modules.unitywebrequestassetbundle
     version: 1.0.0
   - name: com.unity.modules.assetbundle
@@ -3896,9 +4028,9 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequestwww
     version: 1.0.0
   - name: com.unity.services.relay
-    version: 1.0.3
+    version: 1.0.5
   - name: com.unity.services.qos
-    version: 1.0.1
+    version: 1.1.0
   keywords: []
   registry:
     id: main
@@ -3907,6 +4039,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3925,7 +4058,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3937,7 +4070,7 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -3959,6 +4092,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -3977,7 +4111,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
   displayName: UIElements Native
@@ -3988,7 +4122,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4018,6 +4152,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4036,7 +4171,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.sysroot@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.sysroot@1.0.0
   assetPath: Packages/com.unity.sysroot
   name: com.unity.sysroot
   displayName: Sysroot Base
@@ -4045,10 +4180,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: This is the base sysroot package required by all sysroot and toolchain
     packages
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4068,6 +4203,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 0.1.7-preview
     - 0.1.8-preview
@@ -4085,6 +4222,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     verified: 
   dependencies: []
   resolvedDependencies: []
@@ -4099,7 +4238,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637771471340000000
   documentationUrl: 
@@ -4117,7 +4257,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.sysroot.linux-x86_64@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.sysroot.linux-x86_64@1.0.0
   assetPath: Packages/com.unity.sysroot.linux-x86_64
   name: com.unity.sysroot.linux-x86_64
   displayName: Sysroot Linux x64
@@ -4126,9 +4266,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Sysroot used to build unity player for linux x86_64
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4146,6 +4286,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
     compatible:
     - 0.1.6-preview
     - 0.1.7-preview
@@ -4161,6 +4303,8 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     - 2.0.2
+    - 2.0.3
+    - 2.0.4
     verified: 
   dependencies:
   - name: com.unity.sysroot
@@ -4179,7 +4323,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637771471630000000
   documentationUrl: 
@@ -4197,7 +4342,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4206,10 +4351,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4239,7 +4384,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -4252,12 +4398,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-- packageId: com.unity.services.core@1.4.0
+- packageId: com.unity.services.core@1.8.1
   testable: 0
   isDirectDependency: 0
-  version: 1.4.0
+  version: 1.8.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.services.core@1.4.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.core@1.8.1
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4266,13 +4412,13 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'This package defines common components used by multiple Game Service
     packages.
 
     These are standardized and aim to unify the overall experience
     of working with Game Services SDK.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4290,11 +4436,15 @@ m_ResolvedPackages:
     - 1.4.0
     - 1.4.1
     - 1.4.2
+    - 1.4.3
+    - 1.5.2
+    - 1.6.0
+    - 1.7.0
+    - 1.7.1
+    - 1.8.1
     compatible:
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    verified: 1.4.2
+    - 1.8.1
+    verified: 1.8.1
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -4317,25 +4467,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637871962570000000
-  documentationUrl: 
+  datePublishedTicks: 638133000080000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 92e281deb97a96f7b32464b6874de73a17c140ff
+    revision: 96af1c3c3deca8f9eab83d1027e4aec3cc5559b6
     path: 
   unityLifecycle:
-    version: 1.4.0
+    version: 1.8.1
     nextVersion: 
-- packageId: com.unity.services.qos@1.0.1
+- packageId: com.unity.services.qos@1.1.0
   testable: 0
   isDirectDependency: 0
-  version: 1.0.1
+  version: 1.1.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.services.qos@1.0.1
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.qos@1.1.0
   assetPath: Packages/com.unity.services.qos
   name: com.unity.services.qos
   displayName: QoS
@@ -4347,14 +4498,14 @@ m_ResolvedPackages:
   type: 
   description: Provides connectivity Quality of Service (QoS) measurements from Unity
     game clients to different Unity game services running in various geographic regions.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
-    - 1.0.1
+    - 1.1.0
     compatible:
-    - 1.0.1
-    verified: 1.0.1
+    - 1.1.0
+    verified: 1.1.0
   dependencies:
   - name: com.unity.services.core
     version: 1.4.0
@@ -4365,10 +4516,10 @@ m_ResolvedPackages:
   - name: com.unity.services.authentication
     version: 2.0.0
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.4.0
+    version: 1.8.1
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
@@ -4376,19 +4527,23 @@ m_ResolvedPackages:
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.0.0
+    version: 2.4.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
     version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   keywords: []
@@ -4399,6 +4554,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4407,17 +4563,17 @@ m_ResolvedPackages:
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: d37589428e69cd783dfb205863626964628b40a5
+    revision: a77c3d90ce5df88cbda02bc603f2527b9d27bae4
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.1.0
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4426,7 +4582,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 13.0.1.
 
@@ -4437,7 +4593,7 @@ m_ResolvedPackages:
 
     To avoid assembly clashes, please use this
     package if you intend to use Newtonsoft Json.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4454,8 +4610,10 @@ m_ResolvedPackages:
     - 2.0.2
     - 3.0.1
     - 3.0.2
+    - 3.1.0
     compatible:
     - 3.0.2
+    - 3.1.0
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []
@@ -4467,6 +4625,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637846828220000000
@@ -4480,12 +4639,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.2
     nextVersion: 
-- packageId: com.unity.transport@1.0.0
+- packageId: com.unity.transport@1.3.1
   testable: 0
   isDirectDependency: 0
-  version: 1.0.0
+  version: 1.3.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.transport@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.transport@1.3.1
   assetPath: Packages/com.unity.transport
   name: com.unity.transport
   displayName: Unity Transport
@@ -4494,10 +4653,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Unity network transport layer - the low-level interface for sending
     UDP data
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4529,22 +4688,36 @@ m_ResolvedPackages:
     - 1.0.0-pre.16
     - 1.0.0
     - 1.1.0
+    - 1.2.0
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 2.0.0-exp.6
+    - 2.0.0-exp.7
+    - 2.0.0-exp.8
+    - 2.0.0-pre.2
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
     compatible:
-    - 1.0.0
-    - 1.1.0
-    verified: 1.0.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    verified: 1.3.3
   dependencies:
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.4
+    version: 1.6.6
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   resolvedDependencies:
   - name: com.unity.collections
-    version: 1.2.3
+    version: 1.2.4
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -4563,25 +4736,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637843396230000000
-  documentationUrl: 
+  datePublishedTicks: 638090277510000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.transport.git
-    revision: 6a2ab2aed4ceaaef42b07fdcae1a89d0e09014a4
+    revision: 80ac568c7067b2af506786cefbe8a71e4025d032
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 1.3.1
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4590,10 +4764,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4628,7 +4802,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -4641,12 +4816,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.6
     nextVersion: 
-- packageId: com.unity.burst@1.6.5
+- packageId: com.unity.burst@1.8.2
   testable: 0
   isDirectDependency: 0
-  version: 1.6.5
+  version: 1.8.2
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.burst@1.6.5
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.burst@1.8.2
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -4655,10 +4830,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4775,16 +4950,29 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
     compatible:
-    - 1.6.5
     - 1.6.6
     - 1.7.0-pre.1
     - 1.7.0
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
+    - 1.8.2
+    - 1.8.3
+    - 1.8.4
     verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
@@ -4800,25 +4988,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637835629630000000
+  datePublishedTicks: 638046369550000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/burst.git
-    revision: 370080478647882de41c08e5ca4b4ec26032d9c7
+    url: git@github.cds.internal.unity3d.com:unity/burst
+    revision: 695ae863dfb82b807b4deb649b41575aed09b544
     path: 
   unityLifecycle:
-    version: 1.6.5
+    version: 1.6.6
     nextVersion: 
-- packageId: com.unity.render-pipelines.core@12.1.7
+- packageId: com.unity.render-pipelines.core@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.7
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.render-pipelines.core@12.1.7
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.core@12.1.10
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -4835,7 +5024,7 @@ m_ResolvedPackages:
     Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating
     a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will
     save you time.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -4935,10 +5124,12 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 12.1.10
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -4965,6 +5156,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -4976,14 +5168,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 12.1.10
     nextVersion: 
-- packageId: com.unity.shadergraph@12.1.7
+- packageId: com.unity.shadergraph@12.1.10
   testable: 0
   isDirectDependency: 0
-  version: 12.1.7
+  version: 12.1.10
   source: 2
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.shadergraph@12.1.7
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.shadergraph@12.1.10
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -4998,7 +5190,7 @@ m_ResolvedPackages:
     Specific render pipelines can implement specific graph features. Currently, both
     the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
     Shader Graph.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5097,18 +5289,20 @@ m_ResolvedPackages:
     - 10.8.0
     - 10.8.1
     - 10.9.0
-    - 12.1.7
+    - 10.10.0
+    - 10.10.1
+    - 12.1.10
     compatible:
-    - 12.1.7
-    verified: 12.1.7
+    - 12.1.10
+    verified: 12.1.10
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 12.1.10
   - name: com.unity.searcher
     version: 4.9.1
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 12.1.7
+    version: 12.1.10
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -5129,6 +5323,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
@@ -5140,14 +5335,14 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 12.1.7
+    version: 12.1.10
     nextVersion: 
 - packageId: com.unity.nuget.mono-cecil@1.10.1
   testable: 0
   isDirectDependency: 0
   version: 1.10.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1
   assetPath: Packages/com.unity.nuget.mono-cecil
   name: com.unity.nuget.mono-cecil
   displayName: Mono Cecil
@@ -5156,7 +5351,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: library
   description: 'The mono cecil library from https://www.nuget.org/packages/Mono.Cecil/
 
 
@@ -5166,22 +5361,14 @@ m_ResolvedPackages:
 
     To avoid assembly clashes, please
     use this package if you intend to use Mono.Cecil.'
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
-    - 0.1.6-preview.2
-    - 1.0.0-preview.1
-    - 1.10.0-preview.1
-    - 1.10.1-preview.1
     - 1.10.1
-    - 1.10.2
-    - 1.11.4
     compatible:
     - 1.10.1
-    - 1.10.2
-    - 1.11.4
-    verified: 1.10.2
+    verified: 1.10.1
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -5192,9 +5379,10 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637437477070000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -5210,7 +5398,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.2
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.profiling.core@1.0.2
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.profiling.core@1.0.2
   assetPath: Packages/com.unity.profiling.core
   name: com.unity.profiling.core
   displayName: Unity Profiling Core API
@@ -5219,10 +5407,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The Unity Profiling Core package provides an API for code instrumentation
     markup, and for profiling statistic collection.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5248,7 +5436,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637828752310000000
   documentationUrl: 
@@ -5261,12 +5450,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.2
     nextVersion: 
-- packageId: com.unity.collections@1.2.3
+- packageId: com.unity.collections@1.2.4
   testable: 0
   isDirectDependency: 0
-  version: 1.2.3
+  version: 1.2.4
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.collections@1.2.3
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.collections@1.2.4
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -5275,10 +5464,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A C# collections library providing data structures that can be used
     in jobs, and optimized by Burst compiler.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5329,19 +5518,25 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.2.4
     - 1.3.1
+    - 1.4.0
+    - 2.1.0-exp.4
+    - 2.1.0-pre.2
+    - 2.1.0-pre.6
+    - 2.1.0-pre.11
+    - 2.1.0-pre.18
     compatible:
-    - 1.2.3
     - 1.2.4
     - 1.3.1
+    - 1.4.0
     verified: 1.2.4
   dependencies:
   - name: com.unity.burst
-    version: 1.6.4
+    version: 1.6.6
   - name: com.unity.test-framework
     version: 1.1.31
   resolvedDependencies:
   - name: com.unity.burst
-    version: 1.6.5
+    version: 1.8.2
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
@@ -5363,25 +5558,26 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637836474710000000
+  datePublishedTicks: 637908244640000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/dots.git
-    revision: ffdd2604655b6b0140c85ae200df8a3070bb3aa1
+    revision: 32d153034bea0703098263469b88c73619422782
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.2.4
     nextVersion: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -5390,11 +5586,11 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5421,7 +5617,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -5439,7 +5636,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.3
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.settings-manager@1.0.3
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.settings-manager@1.0.3
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5448,10 +5645,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5478,6 +5675,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
+    configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637300096300000000
@@ -5496,7 +5694,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.9.1
   source: 1
-  resolvedPath: D:\GitHub\BossRoom\Library\PackageCache\com.unity.searcher@4.9.1
+  resolvedPath: D:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.searcher@4.9.1
   assetPath: Packages/com.unity.searcher
   name: com.unity.searcher
   displayName: Searcher
@@ -5505,10 +5703,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
-  status: 4
+  status: 0
   errors: []
   versions:
     all:
@@ -5544,7 +5742,8 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+    configSource: 0
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637695653650000000
   documentationUrl: 
