@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638201773084195955
-    m_Hash: 203294506
+      ticks: 638213367161268497
+    m_Hash: 1993252237
   m_LockFileStatus:
     m_FilePath: E:/GitHub/BossRoom/BossRoom/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638201773530092720
-    m_Hash: 606629900
+      ticks: 638213367480657335
+    m_Hash: 3186914398
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     E:/GitHub/BossRoom/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json:
@@ -28,7 +28,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: E:/GitHub/BossRoom/BossRoom/Packages
-m_EditorVersion: 2022.2.21f1 (4907324dc95b)
+m_EditorVersion: 2022.3.0f1 (fb119bb0b476)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -117,6 +117,7 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 2.0.0-pre.3
     compatible:
     - 1.1.3
     recommended: 1.1.3
@@ -574,9 +575,11 @@ m_ResolvedPackages:
     - 3.0.18
     - 3.0.20
     - 3.0.21
+    - 3.0.22
     compatible:
     - 3.0.21
-    recommended: 3.0.21
+    - 3.0.22
+    recommended: 3.0.22
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -1041,7 +1044,7 @@ m_ResolvedPackages:
   - name: com.unity.profiling.core
     version: 1.0.2
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.nuget.mono-cecil
     version: 1.11.4
   - name: com.unity.collections
@@ -1421,12 +1424,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.authentication@2.4.0
+- packageId: com.unity.services.authentication@2.5.0
   testable: 0
   isDirectDependency: 1
-  version: 2.4.0
+  version: 2.5.0
   source: 1
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.authentication@2.4.0
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.authentication@2.5.0
   assetPath: Packages/com.unity.services.authentication
   name: com.unity.services.authentication
   displayName: Authentication
@@ -1460,25 +1463,23 @@ m_ResolvedPackages:
     - 2.5.0-pre.3
     - 2.5.0
     compatible:
-    - 2.4.0
-    - 2.5.0-pre.3
     - 2.5.0
-    recommended: 2.4.0
+    recommended: 2.5.0
     deprecated: []
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.services.core
-    version: 1.7.0
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.ugui
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.services.core
-    version: 1.8.2
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.androidjni
@@ -1500,16 +1501,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638059514280000000
+  datePublishedTicks: 638199321790000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: d3c86b642f156fd98e7696fff1df8ab0fd12c039
+    revision: 8dff44bedc34fa7a78147c064baf8ed5b2108044
     path: 
   unityLifecycle:
-    version: 2.4.0
+    version: 2.5.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1575,11 +1576,11 @@ m_ResolvedPackages:
     version: 2.0.0
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.8.2
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.unitywebrequestassetbundle
@@ -1597,7 +1598,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequestwww
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.4.0
+    version: 2.5.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1696,15 +1697,15 @@ m_ResolvedPackages:
     version: 1.3.0
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.8.2
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.4.0
+    version: 2.5.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4348,11 +4349,11 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.4.0
+    version: 2.5.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.services.core
-    version: 1.8.2
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.androidjni
@@ -4689,12 +4690,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.core@1.8.2
+- packageId: com.unity.services.core@1.9.0
   testable: 0
   isDirectDependency: 0
-  version: 1.8.2
+  version: 1.9.0
   source: 1
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.core@1.8.2
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.services.core@1.9.0
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
   displayName: Services Core
@@ -4736,22 +4737,21 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.0
     compatible:
-    - 1.8.2
     - 1.9.0
-    recommended: 1.8.2
+    recommended: 1.9.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   keywords: []
@@ -4765,16 +4765,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638162786460000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.8/manual/index.html
+  datePublishedTicks: 638199321780000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.9/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 76259ae8be68ef4e25a5783d8bcf476d7ed09d17
+    revision: 74c057b799d7949f52649be6b1e69b7e251beda1
     path: 
   unityLifecycle:
-    version: 1.8.2
+    version: 1.9.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4824,15 +4824,15 @@ m_ResolvedPackages:
     version: 1.2.4
   resolvedDependencies:
   - name: com.unity.services.core
-    version: 1.8.2
+    version: 1.9.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.nuget.newtonsoft-json
-    version: 3.2.0
+    version: 3.2.1
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.services.authentication
-    version: 2.4.0
+    version: 2.5.0
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -4878,12 +4878,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.nuget.newtonsoft-json@3.2.0
+- packageId: com.unity.nuget.newtonsoft-json@3.2.1
   testable: 0
   isDirectDependency: 0
-  version: 3.2.0
+  version: 3.2.1
   source: 1
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.0
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
   displayName: Newtonsoft Json
@@ -4924,7 +4924,6 @@ m_ResolvedPackages:
     - 3.2.0
     - 3.2.1
     compatible:
-    - 3.2.0
     - 3.2.1
     recommended: 3.2.1
     deprecated: []
@@ -4941,16 +4940,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638179516640000000
+  datePublishedTicks: 638186318800000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: aea4fa1f5378bf9d2cc54a549fb552ab76bf7f4f
+    revision: d8e49aef8979bef617144382052ec2f479645eaf
     path: 
   unityLifecycle:
-    version: 3.2.0
+    version: 3.2.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5022,6 +5021,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.7
     - 2.0.0-pre.8
     - 2.0.1
+    - 2.0.2
     compatible:
     - 1.3.4
     - 2.0.0-exp.6
@@ -5034,6 +5034,7 @@ m_ResolvedPackages:
     - 2.0.0-pre.7
     - 2.0.0-pre.8
     - 2.0.1
+    - 2.0.2
     recommended: 1.3.4
     deprecated: []
   dependencies:
@@ -5951,7 +5952,7 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
-    nextVersion: 2.1.0-pre.6
+    nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
