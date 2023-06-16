@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638213367161268497
-    m_Hash: 1993252237
+      ticks: 638225205035606108
+    m_Hash: 3286697315
   m_LockFileStatus:
     m_FilePath: E:/GitHub/BossRoom/BossRoom/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638213367480657335
-    m_Hash: 3186914398
+      ticks: 638225205756943997
+    m_Hash: 2484738861
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     E:/GitHub/BossRoom/BossRoom/Packages/com.unity.multiplayer.samples.coop/package.json:
@@ -28,7 +28,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: E:/GitHub/BossRoom/BossRoom/Packages
-m_EditorVersion: 2022.3.0f1 (fb119bb0b476)
+m_EditorVersion: 2022.3.2f1 (d74737c6db50)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
@@ -117,10 +117,12 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.1
     - 1.1.3
+    - 1.1.4
     - 2.0.0-pre.3
     compatible:
     - 1.1.3
-    recommended: 1.1.3
+    - 1.1.4
+    recommended: 1.1.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -137,7 +139,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638173260900000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@1.1/manual/index.html
@@ -361,7 +363,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638102365180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/index.html
@@ -464,15 +466,17 @@ m_ResolvedPackages:
     - 2.0.1
     - 2.0.3
     - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
     - 2.0.4
+    - 2.0.5
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 2.0.4
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -499,7 +503,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638176024310000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
@@ -576,10 +580,12 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
     - 3.0.21
     - 3.0.22
-    recommended: 3.0.22
+    - 3.0.24
+    recommended: 3.0.24
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -596,7 +602,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638175749180000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
@@ -682,7 +688,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638173205920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
@@ -750,7 +756,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -978,7 +984,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637977144360000000
   documentationUrl: 
@@ -1023,10 +1029,12 @@ m_ResolvedPackages:
     - 1.0.0
     - 1.1.0
     - 2.0.0-pre.2
+    - 2.0.0-pre.3
     compatible:
     - 1.0.0
     - 1.1.0
     - 2.0.0-pre.2
+    - 2.0.0-pre.3
     recommended: 1.0.0
     deprecated: []
   dependencies:
@@ -1134,8 +1142,10 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.3.1
     - 1.4.0
+    - 1.5.1
     compatible:
     - 1.4.0
+    - 1.5.1
     recommended: 1.4.0
     deprecated: []
   dependencies:
@@ -1171,7 +1181,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638176618550000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@1.4/manual/index.html
@@ -1268,7 +1278,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637855259850000000
   documentationUrl: 
@@ -1286,12 +1296,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.universal@14.0.7
+- packageId: com.unity.render-pipelines.universal@14.0.8
   testable: 0
   isDirectDependency: 1
-  version: 14.0.7
+  version: 14.0.8
   source: 2
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.universal@14.0.7
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.universal@14.0.8
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal RP
@@ -1354,10 +1364,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -1365,16 +1375,16 @@ m_ResolvedPackages:
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.shadergraph
-    version: 14.0.7
+    version: 14.0.8
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.burst
     version: 1.8.4
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1388,7 +1398,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.shadergraph
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.searcher
     version: 4.9.2
   keywords:
@@ -1417,7 +1427,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1462,8 +1472,10 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.5.0-pre.3
     - 2.5.0
+    - 2.6.1
     compatible:
     - 2.5.0
+    - 2.6.1
     recommended: 2.5.0
     deprecated: []
   dependencies:
@@ -1549,12 +1561,14 @@ m_ResolvedPackages:
     - 1.1.0-pre.2
     - 1.1.0-pre.3
     - 1.1.0-pre.4
+    - 1.1.0-pre.5
     compatible:
     - 1.0.3
     - 1.1.0-pre.1
     - 1.1.0-pre.2
     - 1.1.0-pre.3
     - 1.1.0-pre.4
+    - 1.1.0-pre.5
     recommended: 1.0.3
     deprecated: []
   dependencies:
@@ -1614,7 +1628,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637971193970000000
   documentationUrl: 
@@ -1751,7 +1765,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638056035740000000
   documentationUrl: 
@@ -1829,6 +1843,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1841,6 +1856,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1872,7 +1888,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637938212700000000
   documentationUrl: 
@@ -2049,7 +2065,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -2167,11 +2183,13 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
     compatible:
     - 1.7.4
     - 1.8.0
     - 1.8.1
     - 1.8.2
+    - 1.8.3
     recommended: 1.7.4
     deprecated: []
   dependencies:
@@ -2206,7 +2224,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638143790870000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
@@ -2298,7 +2316,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638067882700000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html
@@ -4391,7 +4409,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -4527,7 +4545,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638067882470000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html
@@ -4605,7 +4623,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638067882520000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html
@@ -4672,7 +4690,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -4736,8 +4754,10 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     - 1.9.0
+    - 1.10.1
     compatible:
     - 1.9.0
+    - 1.10.1
     recommended: 1.9.0
     deprecated: []
   dependencies:
@@ -4763,7 +4783,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638199321780000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.core@1.9/manual/index.html
@@ -4860,7 +4880,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638156743120000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.qos@1.2/manual/index.html
@@ -5068,7 +5088,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638181861830000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.transport@1.3/manual/index.html
@@ -5140,7 +5160,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -5300,9 +5320,11 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.8.3
     - 1.8.4
+    - 1.8.7
     compatible:
     - 1.8.4
-    recommended: 1.8.4
+    - 1.8.7
+    recommended: 1.8.7
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5319,7 +5341,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638150963640000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -5337,12 +5359,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.render-pipelines.core@14.0.7
+- packageId: com.unity.render-pipelines.core@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 14.0.7
+  version: 14.0.8
   source: 2
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.core@14.0.7
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.render-pipelines.core@14.0.8
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Core RP Library
@@ -5461,10 +5483,10 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.ugui
@@ -5508,19 +5530,19 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.shadergraph@14.0.7
+- packageId: com.unity.shadergraph@14.0.8
   testable: 0
   isDirectDependency: 0
-  version: 14.0.7
+  version: 14.0.8
   source: 2
-  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.shadergraph@14.0.7
+  resolvedPath: E:\GitHub\BossRoom\BossRoom\Library\PackageCache\com.unity.shadergraph@14.0.8
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -5636,19 +5658,19 @@ m_ResolvedPackages:
     - 10.9.0
     - 10.10.0
     - 10.10.1
-    - 14.0.7
+    - 14.0.8
     compatible:
-    - 14.0.7
-    recommended: 14.0.7
+    - 14.0.8
+    recommended: 14.0.8
     deprecated: []
   dependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.searcher
     version: 4.9.2
   resolvedDependencies:
   - name: com.unity.render-pipelines.core
-    version: 14.0.7
+    version: 14.0.8
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -5683,7 +5705,7 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 14.0.7
+    version: 14.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5803,7 +5825,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637828752310000000
   documentationUrl: 
@@ -5940,7 +5962,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637908244640000000
   documentationUrl: 
@@ -6005,7 +6027,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -6139,7 +6161,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 0
+  hideInEditor: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637831252240000000
   documentationUrl: 
